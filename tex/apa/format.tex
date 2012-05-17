@@ -1,0 +1,24 @@
+\documentclass[letter,12pt,titlepage]{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[pdftex]{graphicx} %create a pdf file by default instead of .dvi
+\usepackage{setspace}
+\usepackage{hyperref} %allow links in pdf files
+
+%title page information
+\author{Jason Locklin}
+\title{On-line Visuomotor Control in Ideomotor Apraxia and other Movement Disorders}
+\date{\today}
+
+\usepackage{apacite}       %format citations/bib as apa
+\bibliographystyle{apacite}
+
+\begin{document}
+\maketitle
+\doublespacing %make the whole document double spaced
+
+\include{content} 
+
+\bibliography{references}
+\end{document}
