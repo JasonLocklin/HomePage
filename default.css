@@ -52,7 +52,9 @@ body			{ background-color: #E5E5E5;}
 /* CSS definitions for fonts */
 
 h3 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; }
-h2	 		{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 18px; color: #000000; font-weight: 800; text-align: center}
+
+h2	 		{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 18px; color: #000000; font-weight: 800; text-align: center; margin: 0 0 0.5em 0; border-bottom: 3px solid #666; padding-bottom: 0.5em;}
+
 h1	 		{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 18px; color: #000000; font-weight: 900; }
 ref			{ font-family: monospace; font-size: 9px; color: #505050 ; }
 h5			{ text-align: center; font-weight: normal}
