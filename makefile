@@ -8,6 +8,8 @@ all : cv web apa.csl
 
 #git pull
 
+clean: index.html
+	rm index.html
 
 index.html: template.html
 	pandoc -s --template=template.html -o index.html current_research.md \
