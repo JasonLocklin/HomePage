@@ -1,4 +1,4 @@
-## Publication List
+## Publications
 
 -   **Locklin, J.**, Bunn, L., Roy, E. & Danckert, J. (2010). Measuring Deficits in Visually Guided Action Post-Concussion. *Sports Medicine*,
 *40*, 183-187. [doi:10.2165/11319440-000000000-00000](http://dx.doi.org/10.2165/11319440-000000000-00000)
@@ -16,7 +16,7 @@
     
 
 
-### Non refereed publications:
+### Non-Refereed Publications:
 
 -   **Locklin, J.**, & Danckert, J. (2010) *Do we have Independent Visual
     Streams for Perception and Action? a Response.* Preprint. Retrieve from <http://cogprints.org/6854/>

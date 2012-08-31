@@ -6,7 +6,7 @@
 all : cv web apa.csl
 
 
-#git pull
+#TODO add git update and "publish" commands to this makefile
 
 clean: index.html
 	rm index.html
@@ -28,3 +28,12 @@ cv.md: apa.csl citations.md
 	tail cv.md -n+2 > cv2.md #this leaves just the bibliography
 	#pandoc -S --bibliography locklin.bib --csl=apa.csl -o cv.pdf locklin.md
 	#pandoc -t latex --natbib locklin.bib --csl=apa.csl #uncomment for natbib
+
+locklin.tex:
+	cd tex
+	pandoc -s --template=cv_template.tex -o locklin-test.tex ../publications.md
+	sed 's/subsection/section/' locklin.tex > locklin2.tex #CV uses section headings only
+	sed 's/itemize/outerlist/' locklin2.tex > locklin3.tex #CV uses outerlist/innerlist instead of itemize
+	mv locklin3.tex locklin.tex && rm locklin2.tex #cleanup
+	#latex locklin.tex
+	cd .. 
