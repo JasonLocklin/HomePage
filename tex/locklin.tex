@@ -64,6 +64,11 @@
         pdfauthor={Jason Locklin},
         pdfproducer={pdfLaTeX}]{}
 
+%Definitions (ie., \item[]) should start on a new, indented line
+\usepackage{enumitem}
+\setdescription{labelsep=\textwidth}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -112,14 +117,10 @@
 \makeheading{Jason Locklin, BSc, MA}
 
 \section{Contact Information}
-%
-% NOTE: \rcollength is the width of the right column of the table
-%       (adjust it to your liking; default is 1.85in).
-%
-\newlength{\rcollength}\setlength{\rcollength}{2.5in}%
-%
+\newlength{\rcollength}\setlength{\rcollength}{2.5in} %right column width
+
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
-\href{http://psychology.uwaterloo.ca/}%
+\href{http://psychology.uwaterloo.ca/}
      {Department of Psychology} & \\
 \href{http://www.uwaterloo.ca/}{University of Waterloo}
                            & \textit{Voice:} (519) 888-4567 x36662\\
@@ -134,7 +135,6 @@ N2L 3G1    & \textit{WWW:}
 %Visuomotor Control, Perception, Brain Injury, Object Tracking.
 
 \section{Education}
-%
 \href{http://www.uwaterloo.ca/}{{University of Waterloo}}
 
 \begin{outerlist}
@@ -200,28 +200,10 @@ Dean of Science Honours List (non-monetary) & 2005 \\
 \end{outerlist}
 
 
-\section{Publications}
-\begin{outerlist}
-\item \textbf{Locklin, J.}, Bunn, L., Roy, E. \& Danckert, J. (2010) Measuring Deficits in Visually Guided Action
-Post-Concussion. Sports Medicine. 40(3): 183-187
+% Include the content from markdown files with pandoc
+% See makefile
+$body$
 
-\item Striemer, C., \textbf{Locklin, J.}, Blangero, A., Rossetti, Y., Pisella, L., \& Danckert, J. (2008)
-Attention for action? Examining the link between attention and visuomotor control deficits in a patient with optic ataxia. Neuropsychologia, 47(6): 1491-1499
-
-\end{outerlist}
-
-%\section{Books in Preparation}
-\section{Non-Refereed Publications}
-\begin{outerlist}
-\item \textbf{Locklin, J.}, \& Danckert, J. (2010). Do we have Independent Visual Streams for Perception and
-Action? a Response. Currently posted to Cogprints.org preprint archive.
-
-\item \textbf{Locklin, J.}, Danckert, J. (2009). Changes in Visuomotor Performance of Concussed Individuals.
-Poster session presented at the Vision Sciences Society 9th annual meeting, Naples, Florida.
-
-\item Law, A.*, McCabe, S., \textbf{Locklin, J.}, Tan, C., \& Morris, S. (2006),
-Perceptions of social rank as a predictor of anger and depression symptoms. Poster session presented at the Graduate Student Research Conference, Waterloo, Ontario, Canada.
-\end{outerlist}
 
 \section{Teaching}
 \href{http://psychology.uwaterloo.ca}{Department of Psychology}, University of Waterloo:

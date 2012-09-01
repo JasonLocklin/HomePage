@@ -8,6 +8,8 @@ all : cv web apa.csl
 
 #TODO add git update and "publish" commands to this makefile
 
+clean: index.html
+	rm index.html
 
 index.html: template.html
 	pandoc -s --template=template.html -o index.html current_research.md \
@@ -29,7 +31,9 @@ cv.md: apa.csl citations.md
 
 locklin.tex:
 	cd tex
-	pandoc -s --template=cv_template.tex -o locklin-test.tex ../publications.md
+	pandoc -s --template=template.tex -o locklin-test.tex ../education.md \
+		../publications.md ../awards.md ../teaching.md ../research_experience.md \
+		../other_experience.md ../expertise.md ../interests.md
 	sed 's/subsection/section/' locklin.tex > locklin2.tex #CV uses section headings only
 	sed 's/\\{itemize}/\\{outerlist}/' locklin2.tex > locklin3.tex #CV uses outerlist/innerlist instead of itemize
 	sed 's/\s\\{itemize}/\\{innerlist}/' locklin3.tex > locklin4.tex
