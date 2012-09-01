@@ -25,3 +25,4 @@ publish:
 	git pull
 	git commit -a
 	git push
+	ssh jalockli@artsweb.uwaterloo.ca "cd public_html; git pull; chmod a+r * -R"
