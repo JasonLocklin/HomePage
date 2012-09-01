@@ -31,7 +31,8 @@ locklin.tex:
 	cd tex
 	pandoc -s --template=cv_template.tex -o locklin-test.tex ../publications.md
 	sed 's/subsection/section/' locklin.tex > locklin2.tex #CV uses section headings only
-	sed 's/itemize/outerlist/' locklin2.tex > locklin3.tex #CV uses outerlist/innerlist instead of itemize
-	mv locklin3.tex locklin.tex && rm locklin2.tex #cleanup
+	sed 's/\\{itemize}/\\{outerlist}/' locklin2.tex > locklin3.tex #CV uses outerlist/innerlist instead of itemize
+	sed 's/\s\\{itemize}/\\{innerlist}/' locklin3.tex > locklin4.tex
+	mv locklin4.tex locklin.tex && rm locklin2.tex && rm locklin3.tex #cleanup
 	#latex locklin.tex
 	cd .. 
