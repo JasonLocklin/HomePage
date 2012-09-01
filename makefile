@@ -30,13 +30,15 @@ cv.md: apa.csl citations.md
 	#pandoc -t latex --natbib locklin.bib --csl=apa.csl #uncomment for natbib
 
 locklin.tex:
-	cd tex
-	pandoc -s --template=template.tex -o locklin-test.tex ../education.md \
-		../publications.md ../awards.md ../teaching.md ../research_experience.md \
-		../other_experience.md ../expertise.md ../interests.md
-	sed 's/subsection/section/' locklin.tex > locklin2.tex #CV uses section headings only
-	sed 's/\\{itemize}/\\{outerlist}/' locklin2.tex > locklin3.tex #CV uses outerlist/innerlist instead of itemize
-	sed 's/\s\\{itemize}/\\{innerlist}/' locklin3.tex > locklin4.tex
-	mv locklin4.tex locklin.tex && rm locklin2.tex && rm locklin3.tex #cleanup
-	#latex locklin.tex
+	pandoc -s --template=tex/template.tex -o locklin.tex education.md \
+		publications.md awards.md teaching.md research_experience.md \
+		other_experience.md expertise.md interests.md
+	sed -i 's/subsection/section/' locklin.tex  #CV uses section headings only
+	sed -i 's/subsection/section/' locklin.tex  #CV uses section headings only
+	sed -i 's/\s\\begin{itemize}/\\begin{innerlist}/' locklin.tex 
+	sed -i 's/\\begin{itemize}/\\begin{outerlist}/' locklin.tex  #CV uses outerlist/innerlist instead of itemize
+	sed -i 's/\s\\end{itemize}/\\end{innerlist}/' locklin.tex 
+	sed -i 's/\\end{itemize}/\\end{outerlist}/' locklin.tex  #CV uses outerlist/innerlist instead of itemize
+	latex locklin.tex
+	dvipdf locklin.dvi
 	cd .. 

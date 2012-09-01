@@ -95,9 +95,11 @@
          \raggedright \scshape #1}#2}
 
 % An itemize-style list with lots of space between items
-\newenvironment{outerlist}[1][\enskip\textbullet]%
-        {\begin{enumerate}[#1]}{\end{enumerate}%
-         \vspace{-.6\baselineskip}}
+%\newenvironment{outerlist}[1][\enskip\textbullet]%
+%        {\begin{enumerate}[#1]}{\end{enumerate}%
+%         \vspace{-.6\baselineskip}}
+\newlist{outerlist}{itemize}{3}
+    \setlist[outerlist]{label=\enskip,leftmargin=*}
 
 % An itemize-style list with little space between items
 \newenvironment{innerlist}[1][\enskip\textbullet]%
