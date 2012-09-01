@@ -1,0 +1,513 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt]{article}
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%% Letter sized paper
+\usepackage[paper=letterpaper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=1.2in,     % Length of section titles
+            marginparsep=.05in,       % Space between titles and text
+            margin=1in,               % 1 inch margins
+            includemp]{geometry}
+
+%% Use these lines for A4-sized paper
+%\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+%            margin=25mm,              % 25mm margins
+%            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+%% This gives us fun enumeration environments. compactenum will be nice.
+\usepackage{paralist}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%PDF specific settings:
+\usepackage[pdftex,
+        pdftitle={curriculum vitae},
+        pdfauthor={Jason Locklin},
+        pdfproducer={pdfLaTeX}]{}
+
+%Definitions (ie., \item[]) should start on a new, indented line
+\usepackage{enumitem}
+\setdescription{labelsep=\textwidth}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+%
+% Usage: \makeheading{name}
+%
+% Place at top of document. It should be the first thing.
+\newcommand{\makeheading}[1]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+                {\large \bfseries #1}\\[ -0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+
+\renewcommand{\section}[2]%
+        {\pagebreak[2]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% An itemize-style list with lots of space between items
+%\newenvironment{outerlist}[1][\enskip\textbullet]%
+%        {\begin{enumerate}[#1]}{\end{enumerate}%
+%         \vspace{-.6\baselineskip}}
+\newlist{outerlist}{itemize}{3}
+    \setlist[outerlist]{label=\enskip,leftmargin=*}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactenum}[#1]}{\end{compactenum}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\makeheading{Jason Locklin, BSc, MA}
+
+\section{Contact Information}
+\newlength{\rcollength}\setlength{\rcollength}{2.5in} %right column width
+
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+\href{http://psychology.uwaterloo.ca/}
+     {Department of Psychology} & \\
+\href{http://www.uwaterloo.ca/}{University of Waterloo}
+                           & \textit{Voice:} (519) 888-4567 x36662\\
+100 University Ave.            & \textit{Fax:} (519) 746-8631 \\
+Waterloo, Ontario           & \textit{E-mail:} \href{mailto:jalockli@uwaterloo.ca}{JaLockli@UWaterloo.ca}\\
+N2L 3G1    & \textit{WWW:}
+\href{http://artsweb.uwaterloo.ca/~jalockli}{artsweb.uwaterloo.ca/\~{}jalockli}\\
+\end{tabular}
+
+%\section{Research Interests}  %comment out for teaching
+%
+%Visuomotor Control, Perception, Brain Injury, Object Tracking.
+
+
+
+% Include the content from markdown files with pandoc
+% See makefile
+\section{Education}
+
+\href{http://www.uwaterloo.ca/}{University of Waterloo}:
+
+\begin{outerlist}
+\item
+  \href{http://psychology.uwaterloo.ca}{\textbf{Ph.D., Cognitive
+  Neuroscience}}, (Expected completion December 2013)
+ \begin{innerlist}
+  \item
+    Thesis Topic: Perception and Action Biases under Saccadic and Prism
+    Adaptation.
+  \item
+    Adviser:
+    \href{http://psychology.uwaterloo.ca/people/faculty/jdancker/index.html}{Professor
+    James Danckert}
+  \item
+    Area of Study: The neuroanatomy and psychophysics of human action
+    and perception.
+ \end{innerlist}
+\item
+  \href{http://psychology.uwaterloo.ca}{\textbf{M.A., Behavioural and
+  Cognitive Neuroscience}}, August 2009
+ \begin{innerlist}
+  \item
+    Thesis Title: Development of a Measure of Visuomotor Control for
+    Assessing the Long-term Effects of Concussion
+  \item
+    Adviser:
+    \href{http://psychology.uwaterloo.ca/people/faculty/jdancker/index.html}{Professor
+    James Danckert}
+  \item
+    Area of Study: Fine Motor Control, Concussion Research.
+ \end{innerlist}
+\item
+  \href{http://science.uwaterloo.ca}{\textbf{B.Sc. (Honours)}},
+  Psychology, Biology (minor), June 2007
+ \begin{innerlist}
+  \item
+    Course load including strong mix of Psychology and Natural Science:
+    Biology, Physics, Chemistry, Biochemistry, Organic Chemistry, and
+    Calculus (including all associated laboratory courses).
+  \item
+    Achieved a 95\% in Advanced Data Analysis and a GPA over final 4
+    terms of 84\%.
+ \end{innerlist}
+\end{outerlist}
+\section{Publications}
+
+\begin{outerlist}
+\item
+  \textbf{Locklin, J.}, Bunn, L., Roy, E. \& Danckert, J. (2010).
+  Measuring Deficits in Visually Guided Action Post-Concussion.
+  \emph{Sports Medicine}, \emph{40}, 183-187.
+  \\\href{http://dx.doi.org/10.2165/11319440-000000000-00000}{doi:10.2165/11319440-000000000-00000}
+\item
+  \textbf{Locklin, J.} (2009). \emph{Development of a measure of
+  visuomotor control for assessing the long-term effects of concussion.}
+  (Master's thesis, University of Waterloo, Waterloo, Canada). Retrieve
+  from \\\url{http://hdl.handle.net/10012/4740}
+\item
+  Striemer, C., \textbf{Locklin, J.}, Blangero, A., Rossetti, Y.,
+  Pisella, L. \& Danckert, J. (2008). Attention for action? Examining
+  the link between attention and visuomotor control deficits in a
+  patient with optic ataxia. \emph{Neuropsychologia}, \emph{47},
+  1491-1499.
+  \\\href{http://dx.doi.org/10.1016/j.neuropsychologia.2008.12.021}{doi:10.1016/j.neuropsychologia.2008.12.021}
+\end{outerlist}
+\section{Non-Refereed Publications:}
+
+\begin{outerlist}
+\item
+  \textbf{Locklin, J.}, \& Danckert, J. (2010) \emph{Do we have
+  Independent Visual Streams for Perception and Action? a Response.}
+  Preprint. Retrieve from \\\url{http://cogprints.org/6854/}
+\item
+  \textbf{Locklin, J.}, Danckert, J. (2009). Changes in Visuomotor
+  Performance of Concussed Individuals. Poster. Abstract published in
+  \emph{Journal of Vision}, \emph{9:8}, 1103-1103.
+  \\\href{http://dx.doi.org/10.1167/9.8.1103}{doi:10.1167/9.8.1103}
+\item
+  Law, A., McCabe, S., \textbf{Locklin, J.}, Tan, C., \& Morris, S.
+  (2006). \emph{Perceptions of social rank as a predictor of anger and
+  depression symptoms.} Poster presented at the Graduate Student
+  Research Conference, University of Waterloo, Waterloo, Canada.
+\end{outerlist}
+\section{Awards}
+
+\begin{description}
+\item[\href{http://www.uwaterloo.ca}{Government of Ontario}]
+Ontario Graduate Scholarship \hfill 2010--2011
+
+Aiming for the Top Tuition Scholarship \hfill 2002--2003
+
+\item[\href{http://www.uwaterloo.ca}{University of Waterloo}]
+President's Graduate Scholarship \hfill 2010--2011
+
+UW/Faculty of Arts Graduate Scholarship \hfill 2010
+
+Psychology Memorial Fund Scholarship \hfill 2010
+
+Arts Graduate Enhancement Scholarship \hfill 2009
+
+University of Waterloo Merit Scholarship \hfill 2009
+
+MERIT/Faculty of Arts Graduate Scholarship \hfill 2008--2009
+
+Arts Grad Enhancement Scholarship \hfill 2007--2008
+
+Dean of Science Honours List (non-monetary) \hfill 2004
+
+Dean of Science Honours List (non-monetary) \hfill 2005
+
+\end{description}
+\section{Teaching}
+
+\href{http://psychology.uwaterloo.ca}{Department of Psychology},
+\href{http://www.uwaterloo.ca/}{University of Waterloo}:
+
+\begin{outerlist}
+\item
+  \textbf{Advanced Data Analysis}: \emph{Teaching Assistant \& Lab
+  Instructor} \hfill Fall 2007
+ \begin{innerlist}
+  \item
+    Instructor: Jonathan Fugelsang
+  \item
+    Develop and lead regular 1 hour tutorials instructing 30 students to
+    utilize the statistical software package SPSS in analyzing real
+    world experimental and observational data.
+ \end{innerlist}
+\item
+  \textbf{Basic Data Analysis}: \emph{Teaching Assistant \& Lab
+  Instructor} \hfill    Winter 2008
+ \begin{innerlist}
+  \item
+    Instructor: Derek Koehler
+  \item
+    Instruct a weekly tutorial for 30 students, consisting of a 30
+    minute review lecture of the week's topic, and 30 minutes of
+    practical instruction on solving data analytic problems.
+  \item
+    Develop weekly tutorial lesson plans in cooperation with other TAs.
+ \end{innerlist}
+\item
+  \textbf{Cognitive Processes}: \emph{Teaching Assistant} \hfill    Fall
+  2008
+ \begin{innerlist}
+  \item
+    Instructor: Jonathan Fugelsang
+  \item
+    Provide extra instruction during office hours, grade term papers,
+    give feedback to students.
+ \end{innerlist}
+\item
+  \textbf{Physiological Psychology}: \emph{Teaching Assistant}
+  \hfill    Winter \& Fall 2009
+ \begin{innerlist}
+  \item
+    Instructor: Michelle Jarick and Erin Skinner respectively.
+  \item
+    Provide weekly office hour extra instruction to students.
+ \end{innerlist}
+\item
+  \textbf{Res. in Human Cognitive Neuroscience}: \emph{Teaching
+  Assistant} \hfill    Winter 2010
+ \begin{innerlist}
+  \item
+    Instructor: Mike Dixon.
+  \item
+    Provide assistance and feedback to students developing a research
+    paper.
+ \end{innerlist}
+\item
+  \textbf{Physiological Psychology}: \emph{Teaching Assistant}
+  \hfill    Winter 2011 \& Fall 2012
+ \begin{innerlist}
+  \item
+    Instructor: James Danckert
+  \item
+    Provide weekly office hour extra instruction to students.
+ \end{innerlist}
+\end{outerlist}
+\section{Research}
+
+\href{http://psychology.uwaterloo.ca}{Department of Psychology},
+\href{http://www.uwaterloo.ca/}{University of Waterloo}:
+
+\begin{outerlist}
+\item
+  \emph{Research Assistant} \hfill                           May 2007 to
+  Current
+ \begin{innerlist}
+  \item
+    Supervisor: Dr.~James Danckert
+  \item
+    Develop a motor-accuracy task for the measurement of concussion
+    symptoms.
+  \item
+    Test neurological patients using a variety of neuropsychological
+    tests and procedures, including Prism Adaptation.
+  \item
+    Develop and test a gaze-contingent task using real-time eye-tracking
+    equipment.
+ \end{innerlist}
+\item
+  \emph{Research Assistant} \hfill                           Jan. 2007
+  to Apr. 2007
+ \begin{innerlist}
+  \item
+    Supervisor: Dr.~Jon Fugelsang
+  \item
+    Develop web-based decision making experiments and collect data.
+ \end{innerlist}
+\item
+  \emph{Laboratory Coordinator} \hfill                       Sep. 2005
+  to Aug. 2006
+ \begin{innerlist}
+  \item
+    Supervisor: Dr.~Scott McCabe
+  \item
+    Train research assistants, coordinate lab events, oversee several
+    experiments.
+ \end{innerlist}
+\item
+  \emph{Research Assistant} \hfill                           Jun. 2005
+  to Dec. 2006
+ \begin{innerlist}
+  \item
+    Supervisor: Dr.~James Danckert
+  \item
+    Develop a computer-based task for participants to pursue moving
+    targets on a touch-screen computer.
+ \end{innerlist}
+\end{outerlist}
+\section{Other Relevant Experience}
+
+\emph{U.W. Undergraduate Psychology Society}: President. \hfill Sep.
+2005 to Apr. 2007
+
+\section{Mathematical Expertise}
+
+\begin{outerlist}
+\item
+  \emph{Basic Statistics and Data Analysis}
+ \begin{innerlist}
+  \item
+    Hypothesis testing via means comparisons and correlations, including
+    techniques for the prevention of elevated experiment-wise error.
+  \item
+    Data reduction and simplification using measures of central
+    tendency, variance, and periodicity.
+  \item
+    Data visualization, including experience with the problem of
+    communicating high-dimensional data on paper/screen.
+  \item
+    Experiment power and effect size calculations.
+  \item
+    Experimental design optimization.
+ \end{innerlist}
+\item
+  \emph{Advanced Statistics}
+ \begin{innerlist}
+  \item
+    Analysis of Variance and Covariance, as well as Logistic Regression
+    (Generalized Linear Models).
+  \item
+    Multiple Regression, including model comparisons and variable coding
+    for non-typical data sets.
+  \item
+    Bayesian hypothesis testing.
+ \end{innerlist}
+\end{outerlist}
+\section{Technical Skills}
+
+\begin{outerlist}
+\item
+  \emph{Statistical / Data Analytical Software}
+ \begin{innerlist}
+  \item
+    \href{http://www.spss.com/}{SPSS}, a statistical analysis package
+    for the social sciences,
+  \item
+    \href{http://www.r-project.org/}{R}, a powerful statistics
+    programming language and data visualization package.
+  \item
+    \href{http://www.scipy.org/}{Scipy/Pylab}, a Python library for
+    scientific computation and data visualization.
+ \end{innerlist}
+\item
+  \emph{Laboratory Equipment and Software}
+ \begin{innerlist}
+  \item
+    \href{www.sr-research.com}{EyeLink II} host control (For controlling
+    eye-tracking equipment).
+  \item
+    \href{http://www.psychopy.org/}{Psychopy}, a Python library for
+    building psychopysics and cognitive psychology experiments.
+  \item
+    Authored a library to interface the EyeLink host with Psychopy.
+  \item
+    Trained in lesion overlay analysis using a variety of software
+    packages (Analysis of fMRI brain imaging data)
+  \item
+    AcqKnowlege software in combination with BIOPAC laboratory equipment
+    for physiological measurement (Electromyography (EMG) and Galvanic
+    Skin Response (GSR))
+  \item
+    \href{http://www.pstnet.com/products/e-prime/}{E-Prime} for data
+    collection in Psychology Research.
+ \end{innerlist}
+\item
+  \emph{Programming and Scripting Languages}
+ \begin{innerlist}
+  \item
+    Day-to-day familiarity with several scripting languages including
+    Python, UNIX shell scripting (BASH), and BASIC
+    (\href{http://www.pstnet.com/products/e-prime/}{E-Basic}).
+  \item
+    Experience using a variety of programming languages (C, Pascal, and
+    JAVA).
+  \item
+    Experience using PHP with HTML and CSS in the development of
+    web-based research experiments.
+ \end{innerlist}
+\item
+  \emph{Typesetting and Productivity Software}
+ \begin{innerlist}
+  \item
+    Comfortable writing with TeX, LaTeX, and BibTeX for technical and
+    scientific documents, as well as common office suites such as
+    Microsoft Office and OpenOffice.
+ \end{innerlist}
+\end{outerlist}
+\section{Other Interests}
+
+\begin{outerlist}
+\item
+  Science Popularization and the Skeptic movement.
+\item
+  Free (as in Freedom or Libre, not \$) software, culture and knowledge.
+\item
+  Copyright reform.
+\item
+  Environmental conservation and active transportation.
+\item
+  Cycling, hiking, canoe tripping.
+\end{outerlist}
+\section{Affiliations}
+
+\begin{outerlist}
+\item
+  Danckert Attention and Action Group
+  (\href{http://thedaag.uwaterloo.ca/}{thedaag.uwaterloo.ca})
+\item
+  Vision Sciences Society
+  (\href{http://www.visionsciences.org/}{VisionSciences.org})
+\item
+  Society of Ontario Freethinkers
+  (\href{http://www.sofree.ca/}{sofree.ca})
+\item
+  KW Amateur Radio Club (Callsign: VE3MAL,
+  \href{http://www.kwarc.org/}{kwarc.org})
+\end{outerlist}
+
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
