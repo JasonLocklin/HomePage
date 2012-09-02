@@ -22,7 +22,7 @@
 
 $filename = 'index.html';
 if (file_exists($filename)) {
-    echo "last updated: " . date ("F d Y H:i:s.", filemtime($filename));
+    echo "Last updated: " . date ("F d Y", filemtime($filename));
 }
 ?>
 </p>
