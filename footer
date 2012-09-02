@@ -15,6 +15,18 @@
         alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by/2.5/ca/"><img alt="Creative Commons License" src="http://creativecommons.org/images/public/somerights20.png"></a>
+<p align=Right>
+
+<?php
+// outputs e.g.  somefile.txt was last modified: December 29 2002 22:16:23.
+
+$filename = 'somefile.txt';
+if (file_exists($filename)) {
+    echo "last updated: " . date ("F d Y H:i:s.", filemtime($filename));
+}
+?>
+</p>
+
 </p>
     </td>
     <td valign="top">
