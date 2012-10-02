@@ -8,7 +8,7 @@
 -   Cycling, hiking, camping, canoe tripping.
 
 
-*Projects:*
+Projects:
     + Asterisk [home phone PBX](https://freeknowledge.wordpress.com/2012/10/02/asterisk-home-pbx/) system
     + MythTV Network PVR and XBMC based [media centre](http://freeknowledge.wordpress.com/2012/10/02/mythtv-and-xbm…d-media-centre/)
     + [Digital TV antenna system](http://freeknowledge.wordpress.com/2012/10/02/digital-tv-antenna-system/) including homemade VHF Yagi
