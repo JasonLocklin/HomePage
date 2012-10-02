@@ -25,6 +25,10 @@
     + Instructor: Mike Dixon.
     + Provide assistance and feedback to students developing a research paper.
 
-* **Physiological Psychology**: *Teaching Assistant* \hfill    Winter 2011 & Fall 2012
+* **Physiological Psychology**: *Teaching Assistant* \hfill    Winter 2011
+    + Instructor: James Danckert
+    + Provide weekly office hour extra instruction to students.
+    
+* **Human Neuropsychology**: *Teaching Assistant* \hfill    Fall 2012
     + Instructor: James Danckert
     + Provide weekly office hour extra instruction to students.

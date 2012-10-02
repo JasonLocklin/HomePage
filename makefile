@@ -8,11 +8,11 @@ all : website cv publish
 
 website:
 	pandoc -s --template=template.html -o index.html current_research.md \
-		publications.md interests.md
+		publications.md interests.md affiliations.md
 cv:
 	pandoc -s --template=tex/template.tex -o tex/locklin.tex education.md \
 		publications.md awards.md teaching.md research_experience.md \
-		other_experience.md expertise.md interests.md
+		other_experience.md expertise.md interests.md affiliations.md
 	sed -i 's/subsection/section/' tex/locklin.tex  #CV uses section headings only
 	sed -i 's/subsection/section/' tex/locklin.tex  #CV uses section headings only
 	sed -i 's/\s\\begin{itemize}/\\begin{innerlist}/' tex/locklin.tex 

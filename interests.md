@@ -1,18 +1,18 @@
 ##Other Interests
 
--   Science Popularization and the Skeptic movement.
--   Free (as in Freedom or Libre, not $) software, culture and
-    knowledge.
--   Copyright reform.
+-   Teaching scientific skepticism and wonder.
+-   Astronomy, Birding, Geology, Botany, History, Physics, Chemistry...
+-   Analogue and digital electronics, radio and network communication technologies, robotics, computer vision, artificial intelligence, multimedia over IP, Linux...
+-   Free (as in Freedom or "Libre") software, culture and openaccess science, as well as copyright reform.
 -   Environmental conservation and active transportation.
--   Cycling, hiking, canoe tripping.
+-   Cycling, hiking, camping, canoe tripping.
 
-### Affiliations
+* *Projects:*
+    + [Asterisk home phone PBX system](https://freeknowledge.wordpress.com/2012/10/02/asterisk-home-pbx/)
+    + MythTV Network PVR and XBMC based [media centre](http://freeknowledge.wordpress.com/2012/10/02/mythtv-and-xbm…d-media-centre/)
+    + [Digital TV antenna system](http://freeknowledge.wordpress.com/2012/10/02/digital-tv-antenna-system/) including homemade VHF Yagi
+    + [Antennas](http://wp.me/p6Esq-35) for portable amateur satellite and repeater use.
+    + [Bluetooth TNC](http://freeknowledge.wordpress.com/2012/10/02/bluetooth-tnc/) (modem) for wireless connection between handheld radio and Android phone or laptop.
 
--   Danckert Attention and Action Group
-    ([thedaag.uwaterloo.ca](http://thedaag.uwaterloo.ca/))
--   Vision Sciences Society
-    ([VisionSciences.org](http://www.visionsciences.org/))
--   Society of Ontario Freethinkers ([sofree.ca](http://www.sofree.ca/))
--   KW Amateur Radio Club (Callsign: VE3MAL,
-    [kwarc.org](http://www.kwarc.org/))
+
+
