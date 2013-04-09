@@ -9,3 +9,4 @@
 -   Society of Ontario Freethinkers ([sofree.ca](http://www.sofree.ca/))
 -   KW Amateur Radio Club (Callsign: VE3MAL,
     [kwarc.org](http://www.kwarc.org/))
+-   [Locklin Refridgeration & Appliance Service](http://www.yellowpages.ca/bus/Ontario/Trenton/Locklin-Refrigeration-Appliance-Services/971148.html)
