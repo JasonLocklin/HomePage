@@ -16,13 +16,15 @@
 
 ### Non-Refereed Publications:
 
-*   **Locklin, J.**, & Danckert, J. (2010) *Do we have Independent Visual Streams for Perception and Action? a Response.* Preprint. Retrieve from \
+*   Newman, G., Duffy, C., Powell, A., Gray, R., & **Locklin, J.** (2012). *Position Paper on Electromagnetic Hypersensitivity (Idiopathic Environmental Intolerance Attributed to Electromagnetic Fields).* Canada: Bad Science Watch. Retrieve from \
+<http://www.badsciencewatch.ca/wp-content/uploads/2012/08/BSW-Anti-WiFi-2012-Position-Paper-UPDATED-Jan-27-2013.pdf>
+
+*   **Locklin, J.**, & Danckert, J. (2010). *Do we have Independent Visual Streams for Perception and Action? a Response.* Preprint. Retrieve from \
 <http://cogprints.org/6854/>
     
 *   **Locklin, J.**, Danckert, J. (2009). Changes in Visuomotor Performance of Concussed Individuals. Poster. Abstract published in *Journal of Vision*, *9:8*, 1103-1103.  \
 [doi:10.1167/9.8.1103](http://dx.doi.org/10.1167/9.8.1103)
    
 *   Law, A., McCabe, S., **Locklin, J.**, Tan, C., & Morris, S. (2006). *Perceptions of social rank as a predictor of anger and depression symptoms.*  Poster presented at the Graduate Student Research Conference, University of Waterloo, Waterloo, Canada. 
-    
 
 
