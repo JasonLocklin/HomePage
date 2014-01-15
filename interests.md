@@ -1,8 +1,8 @@
 ##Other Interests
 
--   Tinkering with Analogue and digital electronics, radio and network communication technologies, robotics, computer vision, artificial intelligence, multimedia over IP, Linux, cryptography/secure communication applications...
+-   Tinkering with analogue and digital electronics, radio and network communication technologies, robotics, computer vision, artificial intelligence, VOIP and other RTC, GNU/Linux, cryptography/secure communication applications...
 -   Philosophy and history of science.
--   Free (as in Freedom or "Libré") software.
+-   Free (as in Freedom or "Libre") software.
 -   Teaching scientific skepticism and wonder.
 -   Cycling, back country hiking, camping, canoe tripping.
 
