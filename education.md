@@ -2,7 +2,7 @@
 
 [University of Waterloo](http://www.uwaterloo.ca/): 
 
-* [**Ph.D., Cognitive Neuroscience**](http://psychology.uwaterloo.ca), (Expected completion December 2013)
+* [**Ph.D., Cognitive Neuroscience**](http://psychology.uwaterloo.ca), (Expected completion July 2014)
     + Thesis Topic: Perception and Action Biases under Saccadic and Prism Adaptation.
     + Adviser: [Professor James Danckert](http://psychology.uwaterloo.ca/people/faculty/jdancker/index.html)
     + Area of Study: The neuroanatomy and psychophysics of human action and perception.
