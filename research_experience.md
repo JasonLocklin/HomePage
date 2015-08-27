@@ -3,8 +3,8 @@
 
 [Department of Psychology](http://psychology.uwaterloo.ca), [University of Waterloo](http://www.uwaterloo.ca/):
 
-* *Research Assistant* \hfill                           May 2007 to Current
-    + Supervisor: Dr. James Danckert
+* *Research Assistant* \hfill                           May. 2007 to Aug. 2015
++ Supervisor: Dr. James Danckert
     + Develop a motor-accuracy task for the measurement of concussion symptoms.
     + Test neurological patients using a variety of neuropsychological tests and procedures, including Prism Adaptation.
     + Develop and test a gaze-contingent task using real-time eye-tracking equipment.
