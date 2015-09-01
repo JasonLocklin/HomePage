@@ -11,8 +11,8 @@ website:
 		publications.md interests.md affiliations.md
 cv:
 	pandoc -s --template=tex/template.tex -o tex/locklin.tex education.md \
-		publications.md awards.md teaching.md research_experience.md \
-		training.md leadership_roles.md expertise.md affiliations.md
+		publications.md  leadership_roles.md research_experience.md teaching.md \
+		training.md  expertise.md awards.md affiliations.md
 	sed -i 's/subsection/section/' tex/locklin.tex  #CV uses section headings only
 	sed -i 's/subsection/section/' tex/locklin.tex  #CV uses section headings only
 	sed -i 's/\s\\begin{itemize}/\\begin{innerlist}/' tex/locklin.tex 

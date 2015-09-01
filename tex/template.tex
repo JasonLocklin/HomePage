@@ -12,7 +12,7 @@
             %includefoot, % Uncomment to put page number above margin
             marginparwidth=1.2in,     % Length of section titles
             marginparsep=.05in,       % Space between titles and text
-            margin=1in,               % 1 inch margins
+            margin=0.8in,               % 1 inch margins
             includemp]{geometry}
 
 %% Use these lines for A4-sized paper
@@ -51,6 +51,9 @@
 %                    \arabic{page}                               % -LP
                     \hfill \,}}
 
+% Allow urls to break across lines
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+		    
 % Finally, give us PDF bookmarks
 \usepackage{color,hyperref}
 \definecolor{darkblue}{rgb}{0.0,0.0,0.3}
@@ -116,19 +119,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\makeheading{Jason Locklin, BSc, MA}
+\makeheading{Jason Locklin, Ph.D.}
 
-\section{Contact Information}
+%\section{Contact}
 \newlength{\rcollength}\setlength{\rcollength}{2.5in} %right column width
 
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
-\href{http://psychology.uwaterloo.ca/}
-     {Department of Psychology} & \\
-\href{http://www.uwaterloo.ca/}{University of Waterloo}
-                           & \textit{Voice:} (519) 888-4567 x36662\\
-100 University Ave.            & \textit{Fax:} (519) 746-8631 \\
-Waterloo, Ontario           & \textit{E-mail:} \href{mailto:jalockli@uwaterloo.ca}{JaLockli@UWaterloo.ca}\\
-N2L 3G1    & \textit{WWW:}
+			& \\
+         		& \textit{Voice:} (519) 772-6931\\
+          		& \textit{E-mail:} \href{mailto:locklin.jason@gmail.com}{locklin.jason@gmail.com}\\
+    			& \textit{WWW:}
 \href{http://artsweb.uwaterloo.ca/~jalockli}{artsweb.uwaterloo.ca/\~{}jalockli}\\
 \end{tabular}
 
