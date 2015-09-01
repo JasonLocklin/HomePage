@@ -8,6 +8,6 @@
 * **Laboratory Coordinator**: Clinical Psychology. \hfill Sep. 2005 to Aug. 2006
 	+ Researcher: Dr. Scott McCabe, University of Waterloo.
 
-* **Science Advisor, Advisory Committe**: Bad Science Watch.
+* **Science Advisor, Advisory Committee**: Bad Science Watch.
     \hfill Sep. 2012 to Cur 
 	+ Non-profit public interest advocacy group.

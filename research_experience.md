@@ -10,7 +10,7 @@
     + Test neurological patients using a variety of neuropsychological tests and procedures, including Prism Adaptation.
     + Develop and test a gaze-contingent task using real-time eye-tracking equipment.
 
-* **Desision making:** Research Assistant. \hfill                           Jan. 2007 to Apr. 2007
+* **Decision making:** Research Assistant. \hfill                           Jan. 2007 to Apr. 2007
     + Supervisor: Dr. Jon Fugelsang
     + Develop web-based decision making experiments and collect data.
 

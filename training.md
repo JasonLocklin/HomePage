@@ -15,7 +15,7 @@ examples follow:
 * **Non-technical**
     + Visual Perception (Psychology 287), Daniel Smilek.
     + Neurobehavioral Analysis of Perceptual and Motor Deficits (Kinesiology 656), Eric Roy.
-    + Nature & Computational Correllations of Intelligence (Psychology 670), Britt Anderson.
+    + Nature & Computational Correlations of Intelligence (Psychology 670), Britt Anderson.
     + Cognitive Neuropsychology I (Psychology 779A), Michael Dixon.
     + Human Neuroanatomy and Neuropathology (Psychology 784), Britt Anderson.
 

@@ -22,7 +22,7 @@ Technical Skills
     + [Scipy/Pylab](http://www.scipy.org/), Python library for
 	scientific computation, data visualization.
     + [Matlab](https://www.mathworks.com/products/matlab/),
-	high-level technical computing langague.
+	high-level technical computing language.
 
 * **Laboratory Equipment and Software**
     + [EyeLink II](www.sr-research.com) host control (For controlling eye-tracking equipment).
