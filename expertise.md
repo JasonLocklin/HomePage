@@ -18,7 +18,10 @@ Technical Skills
 
 * **Statistical / Data Analytical Software**
     + [R](http://www.r-project.org/), statistics programming, data visualization.
-    + [SPSS](http://www.spss.com/), statistical analysis for social sciences,
+    + [SPSS](http://www.spss.com/), statistical analysis for
+	social sciences.
+    + [SAS](http://www.sas.com/), data management and advanced
+	statistical analysis.
     + [Scipy/Pylab](http://www.scipy.org/), Python library for
 	scientific computation, data visualization.
     + [Matlab](https://www.mathworks.com/products/matlab/),
