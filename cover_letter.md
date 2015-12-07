@@ -1,10 +1,12 @@
 
-
+\vfill
 
 October 20th, 2015 
-\medskip
+\bigskip
 
 To whom it may concern, 
+
+\medskip
 
 I am a research scientist with extensive experience in human
 cognitive behavioural research and data analysis, 
@@ -14,6 +16,7 @@ Psychology, at the University of Waterloo, specializing in
 Cognitive Neuroscience, and I have a breadth of experience and
 skills that makes me an excellent candidate for your consideration. 
 
+\medskip
 
 To give you an idea of what I have to offer, I have:
 
@@ -34,7 +37,7 @@ To give you an idea of what I have to offer, I have:
     SPSS, and also writing custom Python, R, and Matlab code to
     tackle virtually any data analytic or data-quality assurance
     challenge.
-    +  Demonstrated report writing skills, with articles
+    +  Demonstrated oral and written communication skills, with articles
     published in world-leading scientific journals. 
     +  Reputation for being a motivated collaborator and team member. 
     Approachable and eager to help colleagues
@@ -54,12 +57,17 @@ You may contact me via email at jason@locklin.me,
 or at (519)772-6931 about potential opportunities at your
 organization.
 
+\bigskip
+
 Sincerely, 
+
+\bigskip
 
 \bigskip
 
 Jason Locklin, Ph.D. \
 Kitchener, Ontario.
 
+\vfill
 \clearpage
 

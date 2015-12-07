@@ -1,5 +1,7 @@
 ## Publications
 
+Refereed:
+
 *   **Locklin, J.** (2015). *Perceptual and Memory Deficits in
     Unilateral Neglect.*
 (Dissertation, University of Waterloo, Waterloo, Canada). \
@@ -24,7 +26,7 @@ Retrieve from
 
 
 
-### Non-Refereed Publications:
+Non-Refereed:
 
 *   Newman, G., Duffy, C., Powell, A., Gray, R., & **Locklin, J.**
     (2012). Position Paper on Electromagnetic Hypersensitivity
@@ -43,3 +45,5 @@ Retrieve from
 [doi:10.1167/9.8.1103](http://dx.doi.org/10.1167/9.8.1103)
 
 *   Law, A., McCabe, S., **Locklin, J.**, Tan, C., & Morris, S. (2006). Perceptions of social rank as a predictor of anger and depression symptoms.  Poster presented at the Graduate Student Research Conference, University of Waterloo, Waterloo, Canada.
+
+    \pagebreak[3]

@@ -18,5 +18,4 @@ Projects (no particular order):
 :   [Antennas](http://freeknowledge.wordpress.com/tag/ham-antennas/) for portable amateur satellite and repeater use.
 :   [Bluetooth TNC](http://freeknowledge.wordpress.com/tag/bluetooth-tnc/) (modem) for wireless connection between handheld ham radio and Android phone or laptop.
 
-
-
+\pagebreak[3]

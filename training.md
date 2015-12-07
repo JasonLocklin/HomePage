@@ -19,5 +19,5 @@ examples follow:
     + Cognitive Neuropsychology I (Psychology 779A), Michael Dixon.
     + Human Neuroanatomy and Neuropathology (Psychology 784), Britt Anderson.
 
-  
 
+\pagebreak[3]

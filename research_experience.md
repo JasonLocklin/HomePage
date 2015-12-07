@@ -1,7 +1,6 @@
-## Research
-
-
-[Department of Psychology](http://psychology.uwaterloo.ca), [University of Waterloo](http://www.uwaterloo.ca/):
+Research ([Department of
+Psychology](http://psychology.uwaterloo.ca), [University of
+Waterloo](http://www.uwaterloo.ca/)):
 
 * **Perception, action and brain injury:** Research Assistant.
     \hfill May. 2007 to Aug. 2015
@@ -21,3 +20,5 @@
 * **Attention and clincal depression.** Research Assistant. \hfill                       Sep. 2004 to Aug. 2006
     + Supervisor: Dr. Scott McCabe
     + Train research assistants, oversee several covert-orienting experiments.
+
+\pagebreak[3]

@@ -1,6 +1,8 @@
-## Teaching
+### Teaching 
 
-[Department of Psychology](http://psychology.uwaterloo.ca), [University of Waterloo](http://www.uwaterloo.ca/):
+[Department of
+Psychology](http://psychology.uwaterloo.ca), [University of
+Waterloo](http://www.uwaterloo.ca/):
 
 * **Physiological Psychology**: T.A. \hfill    Winter 2011 & 2014
     + Provide weekly office hour extra instruction to students.
@@ -28,4 +30,4 @@
     + Develop and lead regular 1 hour tutorials instructing 30 students to utilize the statistical software package SPSS in analyzing real world experimental and observational data.
 
 
-    
+\pagebreak[3]
