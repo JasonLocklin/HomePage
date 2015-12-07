@@ -23,9 +23,6 @@ cv:
 	cd tex/ && pdflatex locklin.tex
 cl:
 	pandoc -s --template=tex/template.tex -o cover_letter.tex heading.md cover_letter.md \
-		geom.md heading.md summary.md education.md \
-		publications.md  leadership_roles.md research_experience.md teaching.md \
-		training.md  expertise.md awards.md affiliations.md
 	#CV uses section headings only
 	sed -i 's/subsection/section/' cover_letter.tex  
 	sed -i 's/subsection/section/' cover_letter.tex  
