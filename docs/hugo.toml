@@ -1,0 +1,83 @@
+baseurl = "http://jason.locklin.science"
+title = "Jason Locklin, PhD."
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Jason Locklin"
+  info = "Research, Data Science, Community and Equity"
+  description = "Jason Locklin's academic/professional homepage"
+  keywords = "Data Science, Research, Equity"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+ customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "WRDSB"
+  icon = "fa-brands fa-building fa-2x"
+  weight = 1
+  url = "https://"
+
+[[params.social]]
+  name = "R-Project"
+  icon = "fa-brands fa-r-project fa-2x"
+  weight = 1
+  url = "https://"
+
+
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/johndoe/"
+
+[[params.social]]
+  name = "Google Scholar"
+  icon = "fa-brands fa-google-scholar fa-2x"
+  weight = 3
+  url = "https://scholar.google.ca/citations?user=ZarRn1wAAAAJ&hl=en&oi=ao"
+
+[[params.social]]
+  name = "ResearchGate"
+  icon = "fa-brands fa-researchgate fa-2x"
+  weight = 4
+  url = "https://"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"

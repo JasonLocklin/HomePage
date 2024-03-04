@@ -1,5 +1,9 @@
-## Awards
- 
+## Funding and Awards
+
+
+
+TODO CFFM grant application, RUGS, any others?
+
 [Government of Ontario](http://www.uwaterloo.ca)
   ~ Ontario Graduate Scholarship \hfill 2010–2011
   ~ Aiming for the Top Tuition Scholarship \hfill 2002–2003
@@ -13,8 +17,6 @@
   ~ University of Waterloo Merit Scholarship \hfill 2009
   ~ MERIT/Faculty of Arts Graduate Scholarship \hfill 2008–2009
   ~ Arts Grad Enhancement Scholarship \hfill 2007–2008
-  ~ Dean of Science Honours List (non-monetary) \hfill 2004
-  ~ Dean of Science Honours List (non-monetary) \hfill 2005
 
 
 
