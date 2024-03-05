@@ -17,7 +17,7 @@ style = "github-dark"
   info = "Research, Data Science, Community and Equity"
   description = "Jason Locklin's academic/professional homepage"
   keywords = "Data Science, Research, Equity"
-  avatarurl = "images/avatar.jpg"
+  avatarurl = "images/profile1.jpg"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
@@ -28,7 +28,7 @@ style = "github-dark"
 
   enableTwemoji = true
 
-  colorScheme = "auto"
+  colorScheme = "dark"
   hidecolorschemetoggle = false
 
  customCSS = ["css/custom.css"]
@@ -46,20 +46,20 @@ style = "github-dark"
   name = "WRDSB"
   icon = "fa-brands fa-building fa-2x"
   weight = 1
-  url = "https://"
+  url = "about/"
 
 [[params.social]]
   name = "R-Project"
   icon = "fa-brands fa-r-project fa-2x"
   weight = 1
-  url = "https://"
+  url = "posts/r/"
 
 
 [[params.social]]
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
   weight = 2
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/JasonLocklin/"
 
 [[params.social]]
   name = "Google Scholar"
@@ -75,7 +75,7 @@ style = "github-dark"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "Posts"
   weight = 1
   url  = "posts/"
 [[menu.main]]
