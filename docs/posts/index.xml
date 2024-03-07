@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jason Locklin, PhD.</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://jason.locklin.science/posts/</link>
     <description>Recent content in Posts on Jason Locklin, PhD.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 05 Mar 2024 07:07:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jason.locklin.science/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R Project</title>
-      <link>http://localhost:1313/posts/r/</link>
+      <link>http://jason.locklin.science/posts/r/</link>
       <pubDate>Tue, 05 Mar 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/r/</guid>
+      <guid>http://jason.locklin.science/posts/r/</guid>
       <description>My work with R Link to heading This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
   </channel>

@@ -1,6 +1,30 @@
 ## Publications
 
 Refereed:
+*   Lee, L., Locklin, J., Patel, T., Lu, S. K., Hillier, L. M. (2022)
+    Recruitment of participants for dementia research: interprofessional 
+    perspectives from primary care-based memory clinics.
+    Neurodegenerative Disease Management. 12 (3), 117-127
+    [doi:10.2217/nmt-2021-0053](https://doi.org/10.2217/nmt-2021-0053)
+
+*   Lee, L., Hillier, L., Locklin, J., Lee, J., Slonim, K. (2019)
+    Advanced care planning for persons with dementia in primary care:
+    Attitudes and barriers among health-care professionals. 
+    Journal of palliative care, 34 (4), 248-254.
+    [doi:10.1177/0825859718812463](https://doi.org/10.1177/0825859718812463)
+
+*   Lee, L., Hillier, L., Locklin, J., Lumley-Leger, K., Molnar, F. (2019)
+    Specialist and family physician collaboration: Insights from
+    primary care-based memory clinics. Health \& Social Care in the Community.
+    27 (4), e522-e533.
+    [doi:10.1111/hsc.12751](https://doi.org/10.1111/hsc.12751)
+
+*   Lee, L., Patel, T., Locklin, J., Milligan., J., Pefanis, J.,
+    Costa, A., Lee, J., Slonim, K., Giangregorio, L., Hunter, S.,
+    Keller, H., Boscart, V. (2018). Frailty screening and case-finding
+    for complex chronic conditions in older adults in primary care.
+    Geriatrics, 3 (3), 39.
+    [doi:10.3390/geriatrics3030039](http://dx.doi.org/10.3390/geriatrics3030039)
 
 *   **Locklin, J.** (2015). *Perceptual and Memory Deficits in
     Unilateral Neglect.*

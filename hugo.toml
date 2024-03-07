@@ -54,7 +54,6 @@ style = "github-dark"
   weight = 1
   url = "posts/r/"
 
-
 [[params.social]]
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
@@ -68,10 +67,16 @@ style = "github-dark"
   url = "https://scholar.google.ca/citations?user=ZarRn1wAAAAJ&hl=en&oi=ao"
 
 [[params.social]]
+  name = "orcid"
+  icon = "fa-brands fa-orcid fa-2x"
+  weight = 4
+  url = "https://orcid.org/0000-0001-7777-9065"
+
+[[params.social]]
   name = "ResearchGate"
   icon = "fa-brands fa-researchgate fa-2x"
   weight = 4
-  url = "https://"
+  url = "https://www.researchgate.net/profile/Jason-Locklin-4"
 
 # Menu links
 [[menu.main]]

@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://jason.locklin.science/</loc>
     <lastmod>2024-03-05T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://jason.locklin.science/posts/</loc>
     <lastmod>2024-03-05T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/r/</loc>
+    <loc>http://jason.locklin.science/posts/r/</loc>
     <lastmod>2024-03-05T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://jason.locklin.science/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://jason.locklin.science/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://jason.locklin.science/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://jason.locklin.science/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://jason.locklin.science/tags/</loc>
   </url>
 </urlset>

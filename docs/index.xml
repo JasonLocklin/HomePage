@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jason Locklin, PhD.</title>
-    <link>http://localhost:1313/</link>
+    <link>http://jason.locklin.science/</link>
     <description>Recent content on Jason Locklin, PhD.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 05 Mar 2024 07:07:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jason.locklin.science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R Project</title>
-      <link>http://localhost:1313/posts/r/</link>
+      <link>http://jason.locklin.science/posts/r/</link>
       <pubDate>Tue, 05 Mar 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/r/</guid>
+      <guid>http://jason.locklin.science/posts/r/</guid>
       <description>My work with R Link to heading This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
     <item>
       <title>Current work</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://jason.locklin.science/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://jason.locklin.science/about/</guid>
       <description>Describe work at wrdsb</description>
     </item>
   </channel>
