@@ -13,9 +13,9 @@ author = "Jason Locklin"
 
 
 
-Welcome! I'm a community research scientist with a passion for applying extensive technical expertise to the healthcare and public education sectors. My diverse background is rooted in a blend of rigorous technical training, profound expertise in data collection, advanced statistical analysis, and a dedicated focus on data-driven decision-making and policy refinement.
+Welcome! I'm a community research scientist with a passion for technical expertise to research problems in our communities. Since completing my PhD, I have enjoyed the opportunity to do so in both the public education system and healthcare sector. My background is rooted in a blend of rigorous technical training, expertise in data collection, advanced statistical analysis, and a focus on translating that work into data-driven decision-making or policy refinement.
 
-At the core of my work is a commitment to equity, ensuring that student identity never predicts outcomes. In my current role as a Research Officer with the Waterloo Region District School Board (WRDSB), I've had the privilege of leading a variety of projects designed to assess and enhance both student and staff experiences through rigorous program evaluations and strategic planning.
+Today, the core of my work is a commitment to equity, ensuring that student identity never predicts outcomes. In my current role as a Research Officer with the Waterloo Region District School Board (WRDSB), I've had the privilege of leading a variety of projects designed to assess and report on both student and staff experiences, and to use the results of that work to inform practice within the system.
 
 Here's a glimpse into my journey and contributions:
 
