@@ -39,3 +39,4 @@ sed -i '' 's/\\end{itemize}/\\end{outerlist}/' tex/locklin.tex  #CV uses outerli
 cd tex/
 pdflatex locklin.tex
 cd ..
+mv tex/locklin.pdf static/CV_Jason_Locklin.pdf
