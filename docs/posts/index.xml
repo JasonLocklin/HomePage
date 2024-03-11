@@ -9,11 +9,11 @@
     <lastBuildDate>Tue, 05 Mar 2024 07:07:07 +0100</lastBuildDate>
     <atom:link href="http://jason.locklin.science/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>R Project</title>
+      <title>R Lang</title>
       <link>http://jason.locklin.science/posts/r/</link>
       <pubDate>Tue, 05 Mar 2024 07:07:07 +0100</pubDate>
       <guid>http://jason.locklin.science/posts/r/</guid>
-      <description>R Lang Link to heading As a research scientist working across public education and healthcare, I rely heavily on R for its robustness and adaptability in statistical analysis and data visualization. I started working with it in my undergraduate statistics courses twenty years ago, and I have watched it develop from relative obscurity to a powerhouse of data science and rapid data analysis. I have a deep appreciation for the developers who brought this Free tool to the world of science, and am ever eager to learn more or share what I have learned.</description>
+      <description>As a research scientist working across public education and healthcare, I rely heavily on R for its robustness and adaptability in statistical analysis and data visualization. I started working with it in my undergraduate statistics courses twenty years ago, and I have watched it develop from relative obscurity to a powerhouse of data science and rapid data analysis. I have a deep appreciation for the developers who brought this Free tool to the world of science, and am ever eager to learn more or share what I have learned.</description>
     </item>
   </channel>
 </rss>

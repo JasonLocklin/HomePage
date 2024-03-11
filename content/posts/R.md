@@ -1,9 +1,8 @@
 +++
-title = 'R Project'
+title = 'R Lang'
 date = 2024-03-05T07:07:07+01:00
 draft = false 
 +++
-## R Lang 
 
 As a research scientist working across public education and healthcare, I rely heavily on R for its robustness and adaptability in statistical analysis and data visualization. I started working with it in my undergraduate 
 statistics courses twenty years ago, and I have watched it develop from relative obscurity to a powerhouse
