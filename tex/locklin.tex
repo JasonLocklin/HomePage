@@ -10,8 +10,8 @@
 %% Letter sized paper
 \usepackage[paper=letterpaper,
             %includefoot, % Uncomment to put page number above margin
-            marginparwidth=0in,     % Length of section titles
-            marginparsep=0.0in,       % Space between titles and text
+            marginparwidth=1in,     % Length of section titles
+            marginparsep=0.2in,       % Space between titles and text
             margin=1in,               % 1 inch margins
             includemp]{geometry}
 \parskip=3pt
@@ -103,8 +103,10 @@
 %\newenvironment{outerlist}[1][\enskip\textbullet]%
 %        {\begin{enumerate}[#1]}{\end{enumerate}%
 %         \vspace{-.6\baselineskip}}
+
+
 \newlist{outerlist}{itemize}{3}
-    \setlist[outerlist]{label=\enskip,leftmargin=*}
+    \setlist[outerlist]{label=\enskip,leftmargin=*,itemsep=8pt}
 
 % An itemize-style list with little space between items
 \newenvironment{innerlist}[1][\enskip\textbullet]%
@@ -114,6 +116,10 @@
 % This also tells LaTeX to preferably break a page on one of these gaps
 % if there is a needed pagebreak nearby.
 \newcommand{\blankline}{\quad\pagebreak[1]}
+
+% Support pandoc's "tightlist"
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -126,132 +132,178 @@
 
 % Include the content from markdown files with pandoc
 % See makefile
-\newgeometry{marginparwidth=1.2in,     % Length of section titles
-            marginparsep=.05in,       % Space between titles and text
-            margin=0.8in,               % 1 inch margins
-            includemp}
-
 \makeheading{Jason Locklin, Ph.D.}
 
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
             & \\
                 & \textit{Voice:} (519) 772-6931\\
-                & \textit{E-mail:} \href{mailto:jason@locklin.me}{jason@locklin.me}\\
+                & \textit{E-mail:} \href{mailto:locklin.jason@gmail.com}{locklin.jason@gmail.com}\\
                 & \textit{WWW:}
-\href{http://Jason.Locklin.me}{Jason.Locklin.me}\\
-& \textit{Github:} \href{https://github.com/JasonLocklin}{github.com/JasonLocklin} 
+\href{http://jason.locklin.science}{jason.locklin.science}\\
+
 \end{tabular}
 
 \section{Profile Summary}\label{profile-summary}
 
-Research scientist with extensive experience in the study of human
-health and behaviour, with specialized knowledge of research in
-psychiatric and neurological disorders. A high degree of technical
+Community research scientist with extensive applied experience in
+healthcare and public education sectors. A high degree of technical
 training and expertise regarding data collection, management and
-advanced statistical analysis. Experience in every phase of the research
-process, and able to collaborate effectively with colleagues, trainees,
-and stake holders. pagebreak{[}3{]}
+advanced statistical analysis. Extensive experience working with
+stakeholders and administration for program evaluation, knowledge
+translation, and supporting organization goals and achievements.
+
+\pagebreak[3]
 
 \section{Education}\label{education}
 
 \href{http://www.uwaterloo.ca/}{University of Waterloo}:
 
 \begin{outerlist}
-\itemsep1pt\parskip0pt\parsep0pt
+\tightlist
 \item
   \href{http://psychology.uwaterloo.ca}{\textbf{Ph.D., Cognitive
-  Neuroscience}}, August 2015
+  Neuroscience}} \hfill 2015
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     \emph{Perceptual and Memory Deficits in Unilateral Neglect}
-  \item
-    Adviser:
-    \href{http://psychology.uwaterloo.ca/people/faculty/jdancker/index.html}{James
-    Danckert}
   \item
     Area of Study: Stroke, Perception, and Memory.
  \end{innerlist}
 \item
   \href{http://psychology.uwaterloo.ca}{\textbf{M.A., Behavioural and
-  Cognitive Neuroscience}}, August 2009
+  Cognitive Neuroscience}} \hfill 2009
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     \emph{Development of a Measure of Visuomotor Control for Assessing
     the Long-term Effects of Concussion}
-  \item
-    Adviser:
-    \href{http://psychology.uwaterloo.ca/people/faculty/jdancker/index.html}{James
-    Danckert}
   \item
     Area of Study: Fine Motor Control, Concussion Research.
  \end{innerlist}
 \item
   \href{http://science.uwaterloo.ca}{\textbf{B.Sc. (Honours)}},
-  Psychology, Biology (minor), June 2007
+  Psychology, Biology (minor) \hfill 2007
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
-    Course load including strong mix of Psychology and Natural Science:
-    Biology, Physics, Chemistry, Biochemistry, Organic Chemistry, and
-    Calculus (including all associated laboratory courses).
+    Course load including strong mix of Psychology with Natural and Life
+    Sciences.
  \end{innerlist}
 \end{outerlist}
 
 \pagebreak[3]
 
-\section{Experience}\label{experience}
-
-Leadership Roles:
+\section{Professional Experience}\label{professional-experience}
 
 \begin{outerlist}
-\itemsep1pt\parskip0pt\parsep0pt
+\tightlist
 \item
-  \textbf{Science Advisor, Advisory Committee}: Bad Science Watch.
-  \hfill Sep. 2012 to Cur
+  \textbf{Research Officer},
+  \href{https://www.wrdsb.ca/about-the-wrdsb/research/}{Waterloo Region
+  District School Board} \hfill  2019 to Present
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
-    Non-profit public interest advocacy group.
+    Spearheaded the development and implementation of system-level
+    measurements aligned with WRDSB's strategic goals, focusing on
+    enhancing educational outcomes and operational efficiency through
+    evidence-based practices.
+  \item
+    Collaborated with senior administrators and key stakeholders to
+    provide actionable insights through comprehensive reports,
+    facilitating data-driven decision-making to improve program
+    effectiveness and student well-being.
+  \item
+    Managed and guided multiple research projects from conception
+    through to completion, employing both quantitative and qualitative
+    methodologies to assess and address complex educational challenges.
+  \item
+    Facilitated professional development workshops for WRDSB staff,
+    focusing on the integration of research findings into practical
+    teaching strategies and the development of a culture of continuous
+    improvement and reflective practice.
+  \item
+    Responsible for a major, district-wide longitudinal student
+    well-being research project that involves tens of thousands of
+    students completing both a normed, standardized measurement and
+    WRDSB developed questions that provide ongoing feedback to
+    administration about school climate.
  \end{innerlist}
 \item
-  \textbf{President}: U.W. Undergraduate Psychology Society. \hfill Sep.
-  2005 to Apr. 2007
+  \textbf{Research Associate}, \href{https://family-medicine.ca/}{Centre
+  for Family Medicine Family Health Team} \hfill 2016 - 2019
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
-    Student organization, administration of 8, over 600 members.
+    Responsible for working as part of a multi-disciplinary team of
+    researchers and healthcare professionals with a culture of inquiry
+    and creative thinking, to develop, evaluate, and disseminate
+    innovative primary-care programs to improve quality-of-care for
+    persons with dementia, frailty, and related geriatric issues.
+  \item
+    Manage and achieve successful completion of an innovative pilot
+    frailty screening measure for the Waterloo Region Local Health
+    Network
+  \item
+    Develop a collaboration between a family health organization (family
+    doctor's office) with a community pharmacy to deliver an empathetic
+    screening program to all patients 75+ years old, using a
+    human-centred approach.
+  \item
+    Field tested the screening measure with medical professionals and
+    adjusted the screening measure for better strategy implementation
+    (e.g., booking procedures were adjusted to better meet the needs of
+    patients and administration)
+  \item
+    Utilized qualitative research methods to evaluate the successful
+    improvements in confidence, self-report competence, and capacity of
+    clinicians after participation in a memory-clinic training program.
+
+   \begin{innerlist}
+    \tightlist
+    \item
+      Trained and supervised undergraduate co-op students and volunteer
+      research assistants.
+   \end{innerlist}
  \end{innerlist}
 \item
-  \textbf{Laboratory Coordinator}: Clinical Psychology. \hfill Sep. 2005
-  to Aug. 2006
+  \textbf{Statistical Consultant},
+  \href{https://family-medicine.ca/}{Centre for Family Medicine Family
+  Health Team} \hfill 2016
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
-    Researcher: Dr.~Scott McCabe, University of Waterloo.
+    Collected, tracked and made use of identity based data from clinical
+    and administrative databases, outcome data, survey methodologies,
+    and clinical measures for statistical analysis to evaluate new and
+    existing procedures in primary care.
+  \item
+    Completed statistical reports with R, including data cleaning and
+    validation, as well as visualization.
  \end{innerlist}
 \end{outerlist}
 
-Research (\href{http://psychology.uwaterloo.ca}{Department of
-Psychology}, \href{http://www.uwaterloo.ca/}{University of Waterloo}):
+\textbf{Graduate and Undergraduate Research,}
+\href{http://psychology.uwaterloo.ca}{Department of Psychology},
+\href{http://www.uwaterloo.ca/}{University of Waterloo}:
 
 \begin{outerlist}
-\itemsep1pt\parskip0pt\parsep0pt
+\tightlist
 \item
   \textbf{Perception, action and brain injury:} Research Assistant.
-  \hfill May. 2007 to Aug. 2015
+  \hfill 2007 - 2015
 \item
   Supervisor: Dr.~James Danckert
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Develop a motor-accuracy task for the measurement of concussion
     symptoms.
@@ -263,38 +315,290 @@ Psychology}, \href{http://www.uwaterloo.ca/}{University of Waterloo}):
     equipment.
  \end{innerlist}
 \item
-  \textbf{Decision making:} Research Assistant.
-  \hfill                           Jan. 2007 to Apr. 2007
+  \textbf{Decision making:} Research Assistant. \hfill             2007
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Supervisor: Dr.~Jon Fugelsang
   \item
     Develop web-based decision making experiments and collect data.
  \end{innerlist}
 \item
-  \textbf{Psychophysics.} Research Assistant.
-  \hfill                           Jun. 2005 to Dec. 2006
+  \textbf{Psychophysics.} Research Assistant. \hfill               2005
+  - 2006
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Supervisor: Dr.~James Danckert
   \item
     Develop a computer-based task for a graduate student's project.
  \end{innerlist}
 \item
-  \textbf{Attention and clincal depression.} Research Assistant.
-  \hfill                       Sep. 2004 to Aug. 2006
+  \textbf{Attention and clincal depression.} Laboratory Coordinator
+  \hfill                 2005 - 2006
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Supervisor: Dr.~Scott McCabe
   \item
-    Train research assistants, oversee several covert-orienting
+    Train research assistants, coordinate several covert-orienting
     experiments.
+ \end{innerlist}
+\item
+  \textbf{Attention and clincal depression.} Research Assistant.
+  (volunteer) \hfill                    2004 - 2005
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Supervisor: Dr.~Scott McCabe
+  \item
+    Conduct experimental psychology research experiments.
+ \end{innerlist}
+\end{outerlist}
+
+\pagebreak[3]
+
+\section{Professional
+Affiliations}\label{professional-affiliations}
+
+\begin{outerlist}
+\tightlist
+\item
+  \textbf{Member}, \href{https://www.aero-aoce.org}{Association of
+  Educational Researchers of Ontario} \hfill 2018 - 2024
+\item
+  \textbf{Member}, \href{http://thedaag.uwaterloo.ca/}{Danckert
+  Attention and Action Group} \hfill 2008 - 2015
+\item
+  \textbf{Advisory Council}, \href{http://badsciencewatch.ca}{Bad
+  Science Watch} \hfill 2012
+\item
+  \textbf{Member}, \href{VisionSciences.ca}{Vision Sciences Society}
+  \hfill 2006
+\end{outerlist}
+
+\pagebreak[3]
+
+\section{Service Activities}\label{service-activities}
+
+\begin{outerlist}
+\tightlist
+\item
+  \textbf{Executive Member at Large},
+  \href{https://www.aero-aoce.org/aero-aoce-executiveexeacutecutif-drsquoaero-aoce.html}{Association
+  of Educational Researchers of Ontario (AERO-AOCE)} \hfill 2023 -
+  Present
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Serving as an executive member at large for AERO-AOCE, helping to
+    drive the promotion and improvement of research, evaluation,
+    planning, and development within Ontario's school systems.
+  \item
+    Contributing to initiatives that underscore the importance and
+    impact of educational research in enhancing board of education
+    strategies and outcomes.
+ \end{innerlist}
+\item
+  \textbf{AERO-AOCE Fall Conference} on the Student Census, focusing on
+  the analysis, reporting and community engagement phases of the project
+  (\href{https://mail.google.com/mail/u/0/\#search/aero+fall+conference?projector=1}{Conference
+  overview}) \hfill 2023
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Contributing organization and conference delivery and introduction
+    of speakers.
+ \end{innerlist}
+\item
+  \textbf{AERO-AOCE Spring Special Interest Group}; Climate Surveys:
+  Student, Staff \& Parent.
+  (\href{https://drive.google.com/file/d/1mNDOn_Xfc6B3_2UVLKF-4KWSdrHhBFQp/view}{Overview})
+  \hfill 2023
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Contributing organization and program delivery, including MC role.
+ \end{innerlist}
+\item
+  \textbf{Science Advisor}, Advisory Committee: Bad Science Watch.
+  \hfill 2012
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Non-profit public interest advocacy group.
+ \end{innerlist}
+\item
+  \textbf{President}: U.W. Undergraduate Psychology Society. \hfill 2005
+  - 2007
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Student organization, administration of 8, over 600 members.
+ \end{innerlist}
+\end{outerlist}
+
+\pagebreak[3]
+
+\section{Funding and Awards}\label{funding-and-awards}
+
+Grants
+
+\begin{outerlist}
+\tightlist
+\item
+  \textbf{\href{https://www.r-consortium.org/all-projects/r-user-group-support-program}{R-Consortium.org}}
+  RUGS Program grant \hfill 2024
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Association of Education Researchers of Ontario R User Group funding
+    grant for founding and delivering a summer workshop.
+ \end{innerlist}
+\item
+  \textbf{\href{https://www.cfn-nce.ca/project/cat2018-19/}{Canadian
+  Frailty Network}} Catalyst Grant Program \hfill 2018
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    ``C5-75'': A primary care program to identify and support older
+    adults living with frailty.\\
+  \item
+    Contributed to authoring successful grant application.
+  \item
+    Developed plan for collecting and analysing the data from the
+    project.
+  \item
+    Project plan was to determine the most effective and valued aspects
+    of the C5-75 program for identifying frailty in the community,
+    guiding refinement and improving efficiency and applicability across
+    primary care practice settings.
+ \end{innerlist}
+\end{outerlist}
+
+Scholarships
+
+\begin{description}
+\tightlist
+\item[\href{http://www.uwaterloo.ca}{Government of Ontario}]
+Ontario Graduate Scholarship \hfill 2010--2011
+
+Aiming for the Top Tuition Scholarship \hfill 2002--2003
+\item[\href{http://www.uwaterloo.ca}{University of Waterloo}]
+University of Waterloo Graduate Scholarship \hfill 2012
+
+President's Graduate Scholarship \hfill 2010--2011
+
+UW/Faculty of Arts Graduate Scholarship \hfill 2010
+
+Psychology Memorial Fund Scholarship \hfill 2010
+
+Arts Graduate Enhancement Scholarship \hfill 2009
+
+University of Waterloo Merit Scholarship \hfill 2009
+
+MERIT/Faculty of Arts Graduate Scholarship \hfill 2008--2009
+
+Arts Grad Enhancement Scholarship \hfill 2007--2008
+\end{description}
+
+\pagebreak[3]
+
+\section{Professional Development}\label{professional-development}
+
+\begin{outerlist}
+\tightlist
+\item
+  \textbf{\href{https://goanalyticsbi.com/workshops/}{Go Analytics};
+  WRDSB Microsoft Power BI Hands-On Training} \hfill 2023
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Mastered the full spectrum of Power BI tools, from data connection
+    to publishing dynamic dashboards.
+  \item
+    Learned from Microsoft Certified instructor Klayton Gonçalves,
+    leveraging his extensive data analytics expertise.
+  \item
+    Gained proficiency in Power Query for data transformation and DAX
+    for creating calculated columns and measures.
+  \item
+    Developed skills in building interactive visualizations and
+    employing best practices for effective data presentation.
+ \end{innerlist}
+\item
+  \textbf{\href{https://www.sickkids.ca/en/learning/our-programs/knowledge-translation-program/}{SickKids};
+  The Scientist Knowledge Translation Training (SKTT™) course}
+  \hfill 2018
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Completed intense 2-day workshop focused on effective research
+    dissemination across fields like health, education, and social
+    sciences.
+  \item
+    Learned from Dr.~Melanie Barwick, an expert in implementation
+    science and knowledge translation, on enhancing research impact.
+  \item
+    Acquired strategies for making complex scientific information
+    accessible to non-academic audiences.
+  \item
+    Developed skills in creating impactful knowledge translation plans
+    tailored to diverse user groups.
+ \end{innerlist}
+\end{outerlist}
+
+\href{http://www.uwaterloo.ca/}{University of Waterloo}, selected
+examples follow:
+
+\begin{outerlist}
+\tightlist
+\item
+  \textbf{Technical}
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Multiple Regression (Psychology 632)
+  \item
+    Analysis of Variance (Psychology 630)
+  \item
+    Experimental Design (Statistics 830)
+  \item
+    Computer Vision (Systems Design Engineering 677)
+  \item
+    Data Analysis in Neuroscience (Biology 681)
+ \end{innerlist}
+\item
+  \textbf{Non-technical}
+
+ \begin{innerlist}
+  \tightlist
+  \item
+    Visual Perception (Psychology 287)
+  \item
+    Neurobehavioral Analysis of Perceptual and Motor Deficits
+    (Kinesiology 656)
+  \item
+    Nature \& Computational Correlations of Intelligence (Psychology
+    670)
+  \item
+    Cognitive Neuropsychology I (Psychology 779A)
+  \item
+    Human Neuroanatomy and Neuropathology (Psychology 784)
  \end{innerlist}
 \end{outerlist}
 
@@ -306,56 +610,54 @@ Psychology}, \href{http://www.uwaterloo.ca/}{University of Waterloo}):
 \href{http://www.uwaterloo.ca/}{University of Waterloo}:
 
 \begin{outerlist}
-\itemsep1pt\parskip0pt\parsep0pt
+\tightlist
 \item
-  \textbf{Physiological Psychology}: T.A. \hfill    Winter 2011 \& 2014
+  \textbf{Physiological Psychology}: T.A. \hfill    2011 \& 2014
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Provide weekly office hour extra instruction to students.
  \end{innerlist}
 \item
-  \textbf{Human Neuropsychology}: T.A. \hfill    Fall 2012
+  \textbf{Human Neuropsychology}: T.A. \hfill    2012
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Provide weekly office hour extra instruction to students.
  \end{innerlist}
 \item
-  \textbf{Res. in Human Cognitive Neuroscience}: T.A. \hfill    Winter
-  2010
+  \textbf{Res. in Human Cognitive Neuroscience}: T.A. \hfill    2010
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Provide assistance and feedback to students developing a research
     paper.
  \end{innerlist}
 \item
-  \textbf{Physiological Psychology}: T.A. \hfill    Winter \& Fall 2009
+  \textbf{Physiological Psychology}: T.A. \hfill    2009
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Provide weekly office hour extra instruction to students.
  \end{innerlist}
 \item
-  \textbf{Cognitive Processes}: T.A. \hfill    Fall 2008
+  \textbf{Cognitive Processes}: T.A. \hfill    2008
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Provide extra instruction during office hours, grade term papers,
     give feedback to students.
  \end{innerlist}
 \item
-  \textbf{Basic Data Analysis}: T.A. \& Lab Instructor \hfill    Winter
-  2008
+  \textbf{Basic Data Analysis}: T.A. \& Lab Instructor \hfill    2008
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Instruct a weekly tutorial for 30 students, consisting of a 30
     minute review lecture of the week's topic, and 30 minutes of
@@ -365,11 +667,10 @@ Psychology}, \href{http://www.uwaterloo.ca/}{University of Waterloo}):
     teaching assistants.
  \end{innerlist}
 \item
-  \textbf{Advanced Data Analysis}: T.A. \& Lab Instructor \hfill Fall
-  2007
+  \textbf{Advanced Data Analysis}: T.A. \& Lab Instructor \hfill 2007
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Develop and lead regular 1 hour tutorials instructing 30 students to
     utilize the statistical software package SPSS in analyzing real
@@ -385,48 +686,80 @@ Refereed:
 
 \begin{outerlist}
 \item
+  Lee, L., \textbf{Locklin, J.}, Patel, T., Lu, S. K., Hillier, L. M.
+  (2022) Recruitment of participants for dementia research:
+  interprofessional perspectives from primary care-based memory clinics.
+  Neurodegenerative Disease Management. 12 (3), 117-127
+  \href{https://doi.org/10.2217/nmt-2021-0053}{doi:10.2217/nmt-2021-0053}
+\item
+  Lee, L., Hillier, L., \textbf{Locklin, J.}, Lee, J., Slonim, K. (2019)
+  Advanced care planning for persons with dementia in primary care:
+  Attitudes and barriers among health-care professionals. Journal of
+  palliative care, 34 (4), 248-254.
+  \href{https://doi.org/10.1177/0825859718812463}{doi:10.1177/0825859718812463}
+\item
+  Lee, L., Hillier, L., \textbf{Locklin, J.}, Lumley-Leger, K., Molnar,
+  F. (2019) Specialist and family physician collaboration: Insights from
+  primary care-based memory clinics. Health \& Social Care in the
+  Community. 27 (4), e522-e533.
+  \href{https://doi.org/10.1111/hsc.12751}{doi:10.1111/hsc.12751}
+\item
+  Lee, L., Patel, T., \textbf{Locklin, J.}, Milligan., J., Pefanis, J.,
+  Costa, A., Lee, J., Slonim, K., Giangregorio, L., Hunter, S., Keller,
+  H., Boscart, V. (2018). Frailty screening and case-finding for complex
+  chronic conditions in older adults in primary care. Geriatrics, 3 (3),
+  39.
+  \href{http://dx.doi.org/10.3390/geriatrics3030039}{doi:10.3390/geriatrics3030039}
+\item
   \textbf{Locklin, J.} (2015). \emph{Perceptual and Memory Deficits in
   Unilateral Neglect.} (Dissertation, University of Waterloo, Waterloo,
-  Canada).\\Retrieve from
+  Canada).\\
+  Retrieve from
   \href{http://hdl.handle.net/10012/9590}{hdl.handle.net/10012/9590}
 \item
   \textbf{Locklin, J.}, Bunn, L., Roy, E. \& Danckert, J. (2010).
   Measuring Deficits in Visually Guided Action Post-Concussion.
-  \emph{Sports Medicine}, \emph{40},
-  183-187.\\\href{http://dx.doi.org/10.2165/11319440-000000000-00000}{doi:10.2165/11319440-000000000-00000}
+  \emph{Sports Medicine}, \emph{40}, 183-187.\\
+  \href{http://dx.doi.org/10.2165/11319440-000000000-00000}{doi:10.2165/11319440-000000000-00000}
 \item
   \textbf{Locklin, J.} (2009). \emph{Development of a measure of
   visuomotor control for assessing the long-term effects of concussion.}
-  (Master's thesis, University of Waterloo, Waterloo, Canada).\\Retrieve
-  from
+  (Master's thesis, University of Waterloo, Waterloo, Canada).\\
+  Retrieve from
   \href{http://hdl.handle.net/10012/4740}{hdl.handle.net/10012/4740}
 \item
   Striemer, C., \textbf{Locklin, J.}, Blangero, A., Rossetti, Y.,
   Pisella, L. \& Danckert, J. (2008). Attention for action? Examining
   the link between attention and visuomotor control deficits in a
   patient with optic ataxia. \emph{Neuropsychologia}, \emph{47},
-  1491-1499.\\\href{http://dx.doi.org/10.1016/j.neuropsychologia.2008.12.021}{doi:10.1016/j.neuropsychologia.2008.12.021}
+  1491-1499.\\
+  \href{http://dx.doi.org/10.1016/j.neuropsychologia.2008.12.021}{doi:10.1016/j.neuropsychologia.2008.12.021}
 \end{outerlist}
 
 Non-Refereed:
 
 \begin{outerlist}
 \item
+  2022-2023 Safe, Caring and Inclusive School Survey -- Summary Report
+  (2024). Public report produced by the Waterloo Region District School
+  Board. Retrieve from
+  \href{https://www.wrdsb.ca/about-the-wrdsb/research/reports/scis/2022-2023-safe-caring-and-inclusive-school-survey-summary-report/}{wrdsb.ca/about-the-wrdsb/research/reports/scis/2022-2023-safe-caring-and-inclusive-school-survey-summary-report/}
+\item
   Newman, G., Duffy, C., Powell, A., Gray, R., \& \textbf{Locklin, J.}
   (2012). Position Paper on Electromagnetic Hypersensitivity (Idiopathic
   Environmental Intolerance Attributed to Electromagnetic Fields).
-  Canada: \emph{Bad Science Watch}.\\Retrieve from
+  Canada: \emph{Bad Science Watch}.\\
+  Retrieve from
   \href{http://www.badsciencewatch.ca/projects/investigation-of-anti-wifi-activism-in-canada}{www.badsciencewatch.ca/projects/investigation-of-anti-wifi-activism-in-canada}
 \item
   \textbf{Locklin, J.}, \& Danckert, J. (2010). Do we have Independent
-  Visual Streams for Perception and Action? a Response.
-  Preprint.\\Retrieve from
-  \href{http://cogprints.org/6854/}{cogprints.org/6854/}
+  Visual Streams for Perception and Action? a Response. Preprint.\\
+  Retrieve from \href{http://cogprints.org/6854/}{cogprints.org/6854/}
 \item
   \textbf{Locklin, J.}, Danckert, J. (2009). Changes in Visuomotor
   Performance of Concussed Individuals. Poster. Abstract published in
-  \emph{Journal of Vision}, \emph{9:8},
-  1103-1103.\\\href{http://dx.doi.org/10.1167/9.8.1103}{doi:10.1167/9.8.1103}
+  \emph{Journal of Vision}, \emph{9:8}, 1103-1103.\\
+  \href{http://dx.doi.org/10.1167/9.8.1103}{doi:10.1167/9.8.1103}
 \item
   Law, A., McCabe, S., \textbf{Locklin, J.}, Tan, C., \& Morris, S.
   (2006). Perceptions of social rank as a predictor of anger and
@@ -436,61 +769,15 @@ Non-Refereed:
   \pagebreak[3]
 \end{outerlist}
 
-\section{Graduate Level Training}\label{graduate-level-training}
-
-\href{http://www.uwaterloo.ca/}{University of Waterloo}, selected
-examples follow:
-
-\begin{outerlist}
-\itemsep1pt\parskip0pt\parsep0pt
-\item
-  \textbf{Technical}
-
- \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
-  \item
-    Multiple Regression (Psychology 632), Jonathan Oakman.
-  \item
-    Analysis of Variance (Psychology 630), Stephen Spencer.
-  \item
-    Experimental Design (Statistics 830), Jeanette O'Hara-Hines.
-  \item
-    Computer Vision (Systems Design Engineering 677), Hamid Tizhoosh.
-  \item
-    Data Analysis in Neuroscience (Biology 681), Mattheijs van der Meer.
- \end{innerlist}
-\item
-  \textbf{Non-technical}
-
- \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
-  \item
-    Visual Perception (Psychology 287), Daniel Smilek.
-  \item
-    Neurobehavioral Analysis of Perceptual and Motor Deficits
-    (Kinesiology 656), Eric Roy.
-  \item
-    Nature \& Computational Correlations of Intelligence (Psychology
-    670), Britt Anderson.
-  \item
-    Cognitive Neuropsychology I (Psychology 779A), Michael Dixon.
-  \item
-    Human Neuroanatomy and Neuropathology (Psychology 784), Britt
-    Anderson.
- \end{innerlist}
-\end{outerlist}
-
-\pagebreak[3]
-
 \section{Mathematical Expertise}\label{mathematical-expertise}
 
 \begin{outerlist}
-\itemsep1pt\parskip0pt\parsep0pt
+\tightlist
 \item
   \textbf{Basic Statistics and Data Analysis}
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Hypothesis testing via means comparisons and correlations, including
     techniques for the prevention of elevated experiment-wise error.
@@ -509,7 +796,7 @@ examples follow:
   \textbf{Advanced Statistics}
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Analysis of Variance and Covariance, as well as Logistic Regression
     (Generalized Linear Models).
@@ -524,18 +811,21 @@ examples follow:
 \section{Technical Skills}\label{technical-skills}
 
 \begin{outerlist}
-\itemsep1pt\parskip0pt\parsep0pt
+\tightlist
 \item
   \textbf{Statistical / Data Analytical Software}
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     \href{http://www.r-project.org/}{R}, statistics programming, data
     visualization.
   \item
     \href{http://www.spss.com/}{SPSS}, statistical analysis for social
     sciences.
+  \item
+    \href{https://powerbi.microsoft.com/en-ca/}{Power BI}, Data
+    modelling and dashboarding.
   \item
     \href{http://www.sas.com/}{SAS}, data management and advanced
     statistical analysis.
@@ -550,7 +840,7 @@ examples follow:
   \textbf{Laboratory Equipment and Software}
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     \href{www.sr-research.com}{EyeLink II} host control (For controlling
     eye-tracking equipment).
@@ -572,7 +862,7 @@ examples follow:
   \textbf{Programming and Scripting Languages}
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Day-to-day familiarity with several scripting languages including
     Python, UNIX shell scripting (BASH).
@@ -587,66 +877,12 @@ examples follow:
   \textbf{Typesetting Software}
 
  \begin{innerlist}
-  \itemsep1pt\parskip0pt\parsep0pt
+  \tightlist
   \item
     Comfortable writing with TeX, LaTeX, and BibTeX for technical and
     scientific documents, as well as common office suites such as
     Microsoft Office and LibreOffice.
  \end{innerlist}
-\end{outerlist}
-
-\pagebreak[3]
-
-\section{Awards}\label{awards}
-
-\begin{description}
-\item[\href{http://www.uwaterloo.ca}{Government of Ontario}]
-Ontario Graduate Scholarship \hfill 2010--2011
-
-Aiming for the Top Tuition Scholarship \hfill 2002--2003
-\item[\href{http://www.uwaterloo.ca}{University of Waterloo}]
-University of Waterloo Graduate Scholarship \hfill 2012
-
-President's Graduate Scholarship \hfill 2010--2011
-
-UW/Faculty of Arts Graduate Scholarship \hfill 2010
-
-Psychology Memorial Fund Scholarship \hfill 2010
-
-Arts Graduate Enhancement Scholarship \hfill 2009
-
-University of Waterloo Merit Scholarship \hfill 2009
-
-MERIT/Faculty of Arts Graduate Scholarship \hfill 2008--2009
-
-Arts Grad Enhancement Scholarship \hfill 2007--2008
-
-Dean of Science Honours List (non-monetary) \hfill 2004
-
-Dean of Science Honours List (non-monetary) \hfill 2005
-\end{description}
-
-\pagebreak[3]
-
-\section{Affiliations}\label{affiliations}
-
-\begin{outerlist}
-\itemsep1pt\parskip0pt\parsep0pt
-\item
-  Danckert Attention and Action Group
-  (\href{http://thedaag.uwaterloo.ca/}{thedaag.uwaterloo.ca})
-\item
-  Bad Science Watch (Advisory Council)
-  (\href{http://badsciencewatch.ca}{badsciencewatch.ca})
-\item
-  Vision Sciences Society
-  (\href{http://www.visionsciences.org/}{VisionSciences.org})
-\item
-  Society of Ontario Freethinkers
-  (\href{http://www.sofree.ca/}{sofree.ca})
-\item
-  KW Amateur Radio Club (Callsign: VE3MAL,
-  \href{http://www.kwarc.org/}{kwarc.org})
 \end{outerlist}
 
 \pagebreak[3]

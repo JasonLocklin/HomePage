@@ -10,8 +10,8 @@
 %% Letter sized paper
 \usepackage[paper=letterpaper,
             %includefoot, % Uncomment to put page number above margin
-            marginparwidth=0in,     % Length of section titles
-            marginparsep=0.0in,       % Space between titles and text
+            marginparwidth=1in,     % Length of section titles
+            marginparsep=0.2in,       % Space between titles and text
             margin=1in,               % 1 inch margins
             includemp]{geometry}
 \parskip=3pt
@@ -103,8 +103,10 @@
 %\newenvironment{outerlist}[1][\enskip\textbullet]%
 %        {\begin{enumerate}[#1]}{\end{enumerate}%
 %         \vspace{-.6\baselineskip}}
+
+
 \newlist{outerlist}{itemize}{3}
-    \setlist[outerlist]{label=\enskip,leftmargin=*}
+    \setlist[outerlist]{label=\enskip,leftmargin=*,itemsep=8pt}
 
 % An itemize-style list with little space between items
 \newenvironment{innerlist}[1][\enskip\textbullet]%
@@ -114,6 +116,10 @@
 % This also tells LaTeX to preferably break a page on one of these gaps
 % if there is a needed pagebreak nearby.
 \newcommand{\blankline}{\quad\pagebreak[1]}
+
+% Support pandoc's "tightlist"
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
 

@@ -20,6 +20,7 @@ Technical Skills
     + [R](http://www.r-project.org/), statistics programming, data visualization.
     + [SPSS](http://www.spss.com/), statistical analysis for
 	social sciences.
+    + [Power BI](https://powerbi.microsoft.com/en-ca/), Data modelling and dashboarding. 
     + [SAS](http://www.sas.com/), data management and advanced
 	statistical analysis.
     + [Scipy/Pylab](http://www.scipy.org/), Python library for
