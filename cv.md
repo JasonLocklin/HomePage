@@ -12,12 +12,14 @@
 ```
 ## Profile Summary
 
-Community research scientist with extensive applied experience in
-healthcare and public education sectors. A high degree of technical
-training and expertise regarding data collection, management and
-advanced statistical analysis. Extensive experience working with
-stakeholders and administration for program evaluation, knowledge
-translation, and supporting organization goals and achievements.
+Community research scientist with extensive applied experience across
+healthcare and public education sectors, complemented by a high degree
+of technical training in data collection, management, and advanced
+statistical analysis. Proven track record in engaging with stakeholders
+and administration for impactful program evaluation and knowledge
+translation, aimed at supporting and achieving organizational goals.
+Demonstrated ability to lead data-driven projects that enhance
+educational equity and inform policy changes.
 
 ```{=tex}
 \pagebreak[3]
@@ -47,7 +49,8 @@ translation, and supporting organization goals and achievements.
 
 -   **Research Officer**, [Waterloo Region District School
     Board](https://www.wrdsb.ca/about-the-wrdsb/research/)
-    `\hfill  `{=tex}2019 to Present
+    `\hfill  `{=tex}2018 to Present
+
     -   Spearheaded the development and implementation of system-level
         measurements aligned with WRDSB's strategic goals, focusing on
         enhancing educational outcomes and operational efficiency
@@ -69,8 +72,10 @@ translation, and supporting organization goals and achievements.
         students completing both a normed, standardized measurement and
         WRDSB developed questions that provide ongoing feedback to
         administration about school climate.
+
 -   **Research Associate**, [Centre for Family Medicine Family Health
-    Team](https://family-medicine.ca/) `\hfill `{=tex}2016 - 2019
+    Team](https://family-medicine.ca/) `\hfill `{=tex}2016 - 2018
+
     -   Responsible for working as part of a multi-disciplinary team of
         researchers and healthcare professionals with a culture of
         inquiry and creative thinking, to develop, evaluate, and
@@ -92,10 +97,12 @@ translation, and supporting organization goals and achievements.
         improvements in confidence, self-report competence, and capacity
         of clinicians after participation in a memory-clinic training
         program.
-        -   Trained and supervised undergraduate co-op students and
-            volunteer research assistants.
+    -   Trained and supervised undergraduate co-op students and
+        volunteer research assistants.
+
 -   **Statistical Consultant**, [Centre for Family Medicine Family
     Health Team](https://family-medicine.ca/) `\hfill `{=tex}2016
+
     -   Collected, tracked and made use of identity based data from
         clinical and administrative databases, outcome data, survey
         methodologies, and clinical measures for statistical analysis to
@@ -109,7 +116,7 @@ Waterloo](http://www.uwaterloo.ca/):
 
 -   **Perception, action and brain injury:** Research Assistant.
     `\hfill `{=tex}2007 - 2015
--   Supervisor: Dr. James Danckert
+    -   Supervisor: Dr. James Danckert
     -   Develop a motor-accuracy task for the measurement of concussion
         symptoms.
     -   Test neurological patients using a variety of neuropsychological
@@ -157,30 +164,39 @@ Waterloo](http://www.uwaterloo.ca/):
     Researchers of Ontario
     (AERO-AOCE)](https://www.aero-aoce.org/aero-aoce-executiveexeacutecutif-drsquoaero-aoce.html)
     `\hfill `{=tex}2023 - Present
+
     -   Serving as an executive member at large for AERO-AOCE, helping
         to drive the promotion and improvement of research, evaluation,
         planning, and development within Ontario's school systems.
     -   Contributing to initiatives that underscore the importance and
         impact of educational research in enhancing board of education
         strategies and outcomes.
+
 -   **AERO-AOCE Fall Conference** on the Student Census, focusing on the
     analysis, reporting and community engagement phases of the project
     ([Conference
     overview](https://mail.google.com/mail/u/0/#search/aero+fall+conference?projector=1))
     `\hfill `{=tex}2023
+
     -   Contributing organization and conference delivery and
         introduction of speakers.
+
 -   **AERO-AOCE Spring Special Interest Group**; Climate Surveys:
     Student, Staff & Parent.
     ([Overview](https://drive.google.com/file/d/1mNDOn_Xfc6B3_2UVLKF-4KWSdrHhBFQp/view))
     `\hfill `{=tex}2023
+
     -   Contributing organization and program delivery, including MC
         role.
+
 -   **Science Advisor**, Advisory Committee: Bad Science Watch.
     `\hfill `{=tex}2012
+
     -   Non-profit public interest advocacy group.
+
 -   **President**: U.W. Undergraduate Psychology Society.
     `\hfill `{=tex}2005 - 2007
+
     -   Student organization, administration of 8, over 600 members.
 
 ```{=tex}
@@ -192,13 +208,16 @@ Grants
 
 -   **[R-Consortium.org](https://www.r-consortium.org/all-projects/r-user-group-support-program)**
     RUGS Program grant `\hfill `{=tex}2024
+
     -   Association of Education Researchers of Ontario R User Group
         funding grant for founding and delivering a summer workshop.
+
 -   **[Canadian Frailty
     Network](https://www.cfn-nce.ca/project/cat2018-19/)** Catalyst
     Grant Program `\hfill `{=tex}2018
-    -   "C5-75": A primary care program to identify and support older
-        adults living with frailty.\
+
+    -   C5-75: A primary care program to identify and support older
+        adults living with frailty.
     -   Contributed to authoring successful grant application.
     -   Developed plan for collecting and analysing the data from the
         project.
@@ -230,6 +249,7 @@ Scholarships
 
 -   **[Go Analytics](https://goanalyticsbi.com/workshops/); WRDSB
     Microsoft Power BI Hands-On Training** `\hfill `{=tex}2023
+
     -   Mastered the full spectrum of Power BI tools, from data
         connection to publishing dynamic dashboards.
     -   Learned from Microsoft Certified instructor Klayton Gonçalves,
@@ -238,9 +258,11 @@ Scholarships
         DAX for creating calculated columns and measures.
     -   Developed skills in building interactive visualizations and
         employing best practices for effective data presentation.
+
 -   **[SickKids](https://www.sickkids.ca/en/learning/our-programs/knowledge-translation-program/);
     The Scientist Knowledge Translation Training (SKTT™) course**
     `\hfill `{=tex}2018
+
     -   Completed intense 2-day workshop focused on effective research
         dissemination across fields like health, education, and social
         sciences.

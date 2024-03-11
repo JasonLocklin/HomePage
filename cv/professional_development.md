@@ -2,6 +2,7 @@ Professional Development
 =======================
 
 * **[Go Analytics](https://goanalyticsbi.com/workshops/); WRDSB Microsoft Power BI Hands-On Training** \hfill 2023
+
   +  Mastered the full spectrum of Power BI tools, from data connection to publishing dynamic dashboards.
   +  Learned from Microsoft Certified instructor Klayton Gonçalves, leveraging his extensive data analytics expertise.
   +  Gained proficiency in Power Query for data transformation and DAX for creating calculated columns and measures.
@@ -9,6 +10,7 @@ Professional Development
 
 
 * **[SickKids](https://www.sickkids.ca/en/learning/our-programs/knowledge-translation-program/); The Scientist Knowledge Translation Training (SKTT™) course** \hfill 2018
+
   - Completed intense 2-day workshop focused on effective research dissemination across fields like health, education, and social sciences.
   - Learned from Dr. Melanie Barwick, an expert in implementation science and knowledge translation, on enhancing research impact.
   - Acquired strategies for making complex scientific information accessible to non-academic audiences.

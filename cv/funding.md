@@ -3,11 +3,13 @@
 Grants
 
 * **[R-Consortium.org](https://www.r-consortium.org/all-projects/r-user-group-support-program)**  RUGS Program grant \hfill 2024
+
   + Association of Education Researchers of Ontario R User Group funding grant for founding and delivering a summer workshop.
 
 
 * **[Canadian Frailty Network](https://www.cfn-nce.ca/project/cat2018-19/)** Catalyst Grant Program \hfill 2018
-  + "C5-75": A primary care program to identify and support older adults living with frailty.   
+
+  + C5-75: A primary care program to identify and support older adults living with frailty.
   + Contributed to authoring successful grant application.
   + Developed plan for collecting and analysing the data from the project.
   + Project plan was to determine the most effective and valued aspects of the C5-75 program for identifying frailty in the community, guiding refinement and improving efficiency and applicability across primary care practice settings.

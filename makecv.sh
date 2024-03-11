@@ -11,7 +11,8 @@ pandoc -s --template=tex/template.tex -o tex/locklin.tex \
 	cv/professional_development.md \
 	cv/teaching_experience.md \
 	cv/publications.md \
-	cv/skills.md
+	cv/skills.md \
+  cv/footnote.md
 
 pandoc -s -o cv.md \
   cv/contact.md \

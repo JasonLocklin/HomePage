@@ -1,6 +1,7 @@
 ## Professional Experience
 
-* **Research Officer**, [Waterloo Region District School Board](https://www.wrdsb.ca/about-the-wrdsb/research/) \hfill  2019 to Present
+* **Research Officer**, [Waterloo Region District School Board](https://www.wrdsb.ca/about-the-wrdsb/research/) \hfill  2018 to Present
+
   + Spearheaded the development and implementation of system-level measurements aligned with WRDSB’s strategic goals, focusing on enhancing educational outcomes and operational efficiency through evidence-based practices.
   + Collaborated with senior administrators and key stakeholders to provide actionable insights through comprehensive reports, facilitating data-driven decision-making to improve program effectiveness and student well-being.
   + Managed and guided multiple research projects from conception through to completion, employing both quantitative and qualitative methodologies to assess and address complex educational challenges.
@@ -9,16 +10,18 @@
 
 
 
-* **Research Associate**, [Centre for Family Medicine Family Health Team](https://family-medicine.ca/)  \hfill 2016 - 2019
+* **Research Associate**, [Centre for Family Medicine Family Health Team](https://family-medicine.ca/)  \hfill 2016 - 2018
+
   + Responsible for working as part of a multi-disciplinary team of researchers and healthcare professionals with a culture of inquiry and creative thinking, to develop, evaluate, and disseminate innovative primary-care programs to improve quality-of-care for persons with dementia, frailty, and related geriatric issues.
   + Manage and achieve successful completion of an innovative pilot frailty screening measure for the Waterloo Region Local Health Network
   + Develop a collaboration between a family health organization (family doctor’s office) with a community pharmacy to deliver an empathetic screening program to all patients 75+ years old, using a human-centred approach.
   + Field tested the screening measure with medical professionals and adjusted the screening measure for better strategy implementation (e.g., booking procedures were adjusted to better meet the needs of patients and administration)
   + Utilized qualitative research methods to evaluate the successful improvements in confidence, self-report competence, and capacity of clinicians after participation in a memory-clinic training program.
-	+ Trained and supervised undergraduate co-op students and volunteer research assistants.
+  + Trained and supervised undergraduate co-op students and volunteer research assistants.
 
 
 * **Statistical Consultant**, [Centre for Family Medicine Family Health Team](https://family-medicine.ca/)   \hfill 2016
+
     +	Collected, tracked and made use of identity based data from clinical and administrative databases, outcome data, survey methodologies, and clinical measures for statistical analysis to evaluate new and existing procedures in primary care.
     + Completed statistical reports with R, including data cleaning and validation, as well as visualization.
 
@@ -30,7 +33,7 @@ Waterloo](http://www.uwaterloo.ca/):
 
 * **Perception, action and brain injury:** Research Assistant.
     \hfill 2007 - 2015
-+ Supervisor: Dr. James Danckert
+    + Supervisor: Dr. James Danckert
     + Develop a motor-accuracy task for the measurement of concussion symptoms.
     + Test neurological patients using a variety of neuropsychological tests and procedures, including Prism Adaptation.
     + Develop and test a gaze-contingent task using real-time eye-tracking equipment.
