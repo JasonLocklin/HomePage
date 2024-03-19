@@ -2,3 +2,4 @@ cover_letter.tex
 resume.tex
 locklin.tex
 *.log
+.DS_Store

@@ -6,8 +6,15 @@
     <description>Recent content on Jason Locklin, PhD.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Mar 2024 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2024 07:07:07 +0100</lastBuildDate>
     <atom:link href="http://jason.locklin.science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources Page</title>
+      <link>http://jason.locklin.science/posts/resources/</link>
+      <pubDate>Tue, 19 Mar 2024 07:07:07 +0100</pubDate>
+      <guid>http://jason.locklin.science/posts/resources/</guid>
+      <description>Custom Search I have found that searching for technical questions has become rather difficult as ai blog mills have started filling search results with useless garbage. I suggest anyone struggling with this create their own custom &#34;programmable search engine&#34; that searches only sites they consider good sources of information on the topics they need to search. This can be done with Google here. In my own version, I have various R related community pages and blogs, plus sites like reddit and stackexchange, as well as the roots of mailing list reflectors that have their archives indexed.</description>
+    </item>
     <item>
       <title>R Lang</title>
       <link>http://jason.locklin.science/posts/r/</link>
