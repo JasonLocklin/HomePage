@@ -6,12 +6,12 @@
   + Contributing to initiatives that underscore the importance and impact of educational research in enhancing board of education strategies and outcomes.
 
 
-* **AERO-AOCE Fall Conference** on the Student Census, focusing on the analysis, reporting and community engagement phases of the project ([Conference overview](https://mail.google.com/mail/u/0/#search/aero+fall+conference?projector=1)) \hfill 2023
+* **Host/Facilitator, AERO-AOCE [Fall Conference](https://mail.google.com/mail/u/0/#search/aero+fall+conference?projector=1)** on the Student Census, focusing on the analysis, reporting and community engagement phases of the project. \hfill 2023
 
   + Contributing organization and conference delivery and introduction of speakers.
 
 
-* **AERO-AOCE Spring Special Interest Group**; Climate Surveys: Student, Staff & Parent. ([Overview](https://drive.google.com/file/d/1mNDOn_Xfc6B3_2UVLKF-4KWSdrHhBFQp/view)) \hfill 2023
+* **Host/Facilitator, AERO-AOCE [Spring Special Interest Group](https://drive.google.com/file/d/1mNDOn_Xfc6B3_2UVLKF-4KWSdrHhBFQp/view)**; Climate Surveys: Student, Staff & Parent. \hfill 2023
 
   + Contributing organization and program delivery, including MC role.
 
