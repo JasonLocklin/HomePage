@@ -9,4 +9,14 @@ The archive of the gradschool version is available on the internet archive at:
 https://web.archive.org/web/20161010070306/https://artsweb.uwaterloo.ca/~jalockli/
 
 
+# This site is built with Hugo.
 
+> hugo serve
+
+Will temporarily build and serve the site locally on localhost:8080
+
+> hugo
+
+Will update the static files for the site to be pushed to github.
+Be careful to not commit to git while "hugo serve" is running, as 
+it is set up to serve temporary files from the current branch.
