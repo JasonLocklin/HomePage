@@ -1,5 +1,6 @@
 #!/bin/zsh
 
+# Build CV
 pandoc -s --template=tex/template.tex -o tex/locklin.tex \
   cv/contact.md \
 	cv/professional_summary.md \
@@ -26,8 +27,6 @@ pandoc -s -o cv.md \
 	cv/teaching_experience.md \
 	cv/publications.md \
 	cv/skills.md
-
-
 
 #CV uses section headings only
 sed -i '' 's/subsection/section/' tex/locklin.tex

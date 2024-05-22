@@ -2,4 +2,8 @@ cover_letter.tex
 resume.tex
 locklin.tex
 *.log
+*.out
+*.aux
 .DS_Store
+cv/references.md
+cv/wrdsbcontact.md
