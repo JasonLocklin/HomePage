@@ -1,10 +1,10 @@
 Professional Development
 =======================
 
-* **[Project Management Institute](https://www.pmi.org/certifications/project-management-pmp); Project Management Professional (PMP) Certification \hfill In-Progress
+* **[PMI](https://www.pmi.org/certifications/project-management-pmp); Project Management Professional (PMP) Certification** \hfill In-Progress
 
 
-* **[WRDSB](https://www.wrdsb.ca/); Leading for Change: Understanding Colonialism, Human Rights and Equity \hfill 2024
+* **[WRDSB](https://www.wrdsb.ca/); Leading for Change: Understanding Colonialism, Human Rights and Equity** \hfill 2024
 
   + Course explored the nuanced concepts of colonialism, human rights and equity —how they are each unique, different, and how they relate to one another, to education and to leadership.
   + Interactive, experiential learning exploring notions of colonialism, oppression, and racism and uncovering how these impact all aspects of education, while considering personal identity and one's own role in upholding these structures.

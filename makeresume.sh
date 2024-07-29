@@ -2,20 +2,20 @@
 
 # Build more common/shorter Resume format
 pandoc -s --template=tex/template.tex -o tex/resume.tex \
-	cv/wrdsbcontact.md \
+	cv/contact.md \
 	cv/professional_summary.md \
 	cv/education.md \
 	cv/research_experience.md \
 	cv/affiliations.md \
-	cv/professional_development.md \
 	cv/service_activities.md \
+	cv/professional_development.md \
 	cv/publications.md \
-	cv/references.md
+	#cv/references.md
 
 pandoc -s -o cv.md \
 	cv/contact.md
 
-#CV uses section headings only
+#Use section headings only
 sed -i '' 's/subsection/section/' tex/resume.tex
 sed -i '' 's/subsection/section/' tex/resume.tex
 sed -i '' 's/[[:space:]]\\begin{itemize}/\\begin{innerlist}/' tex/resume.tex
