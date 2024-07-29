@@ -10,11 +10,11 @@
 %% Letter sized paper
 \usepackage[paper=letterpaper,
             %includefoot, % Uncomment to put page number above margin
-            marginparwidth=1in,     % Length of section titles
-            marginparsep=0.2in,       % Space between titles and text
+            marginparwidth=1.0in,     % Length of section titles
+            marginparsep=0in,       % Space between titles and text
             margin=1in,               % 1 inch margins
             includemp]{geometry}
-\parskip=3pt
+\parskip=2pt
 
 %% Use these lines for A4-sized paper
 %\usepackage[paper=a4paper,
@@ -109,8 +109,9 @@
     \setlist[outerlist]{label=\enskip,leftmargin=*,itemsep=8pt}
 
 % An itemize-style list with little space between items
-\newenvironment{innerlist}[1][\enskip\textbullet]%
-        {\begin{compactenum}[#1]}{\end{compactenum}}
+\newenvironment{innerlist}[1][\enskip\textbullet]
+    {\begin{samepage}\begin{compactenum}[#1]}
+    {\end{compactenum}\end{samepage}}
 
 % To add some paragraph space between lines.
 % This also tells LaTeX to preferably break a page on one of these gaps
