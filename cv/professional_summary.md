@@ -1,6 +1,6 @@
 ## Profile Summary
 
-**Education Systems Research and Organizational Transformation Leadership**
+**Education Research Project Management and Organizational Transformation**
 
 Innovative community research with extensive experience with successful large-scale projects, program evaluation, and knowledge translation. These project management skills are complemented with a high degree of technical expertise in research design, ethics protocols, measurement theory, advanced qualitative and quantitative statistical analysis. This work includes the translation of complex data to accessible and actionable insights for multiple audiences, aimed at supporting and achieving organizational goals.
 
