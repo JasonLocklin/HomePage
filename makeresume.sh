@@ -26,7 +26,7 @@ pandoc -s --template=tex/template.tex -o tex/resume.tex \
 	cv/professional_development.md \
 	cv/graduate_training.md \
 	cv/skills.md \
-	cv/teaching_experience \
+	cv/teaching_experience.md \
 	cv/publications.md \
 	#cv/references.md
 

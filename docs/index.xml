@@ -4,7 +4,7 @@
     <title>“Let the Dataset Change Your Mindset”</title>
     <link>http://jason.locklin.science/</link>
     <description>Recent content on “Let the Dataset Change Your Mindset”</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 19 Mar 2024 07:07:07 +0100</lastBuildDate>
     <atom:link href="http://jason.locklin.science/index.xml" rel="self" type="application/rss+xml" />
@@ -27,7 +27,7 @@
       <link>http://jason.locklin.science/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       <guid>http://jason.locklin.science/about/</guid>
-      <description>Welcome! I&amp;rsquo;m a community research scientist with a passion for applying technical expertise to research problems in our communities. Since completing my PhD, I have enjoyed the opportunity to do so in both the public education system and healthcare sector. My background is rooted in a blend of rigorous technical training, expertise in data collection, advanced statistical analysis, and a focus on translating that work into data-driven decision-making or policy refinement.</description>
+      <description>Welcome! I&amp;rsquo;m a educational research scientist with a passion for applying technical expertise to research problems to improve the education for students. Since completing my PhD, I have enjoyed the opportunity to conduct research in both the public education system and healthcare sector, and leading organizational transformation based on evidene based policy and equitable change. My background is rooted in a blend of rigorous technical training, expertise in data collection, advanced statistical analysis, and a focus on translating that work into data-driven decision-making or policy refinement.</description>
     </item>
   </channel>
 </rss>

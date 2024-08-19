@@ -1,13 +1,10 @@
-```{=tex}
-\makeheading{Jason Locklin, Ph.D.}
-```
-```{=tex}
+\makeheading{Dr. Jason Locklin, Ph.D.}
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
     & \\
-  & \textit{Voice:} (519) 772-6931\\
-  & \textit{E-mail:} \href{mailto:jason@locklin.me}{jason@locklin.me}\\
-  & \textit{WWW:}
-    \href{http://Jason.Locklin.me}{Jason.Locklin.me}\\
-  & \textit{Github:} \href{https://github.com/JasonLocklin}{github.com/JasonLocklin} 
+  & Research Officer\\
+  & Research and Organizational Transformation \\
+  & Waterloo Region District School Board \\
+  & 51 Ardelt Avenue, Kitchener ON, N2C 2R5 \\
+  & \textit{Email:} \href{mailto:Jason@Locklin.science}{Jason@Locklin.science}\\
+
 \end{tabular}
-```
