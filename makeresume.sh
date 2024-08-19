@@ -1,16 +1,52 @@
 #!/bin/sh
 
+# Make short versions of service activities and professional dev by
+# drop pagebreak 2s
+# remove blank lines
+# re-add blank lines after :
+# re-add blank lines before \commands
+cd cv
+grep -v '^\  \-\ ' graduate_research_experience.md | grep -v 'pagebreak\[2\]' | grep -v '^$' | perl -pe 's/:(?=\n)/:\n\n/g' | perl -pe '$_ = "\n" . $_ if /^\s*\\/' > graduate_research_experience_short.md
+grep -v '^\  \-\ ' service_activities.md | grep -v 'pagebreak\[2\]' | grep -v '^$' | perl -pe '$_ = "\n" . $_ if /^\s*\\/' > service_activities_short.md
+grep -v '^\  \-\ ' professional_development.md | grep -v 'pagebreak\[2\]' | grep -v '^$' | perl -pe '$_ = "\n" . $_ if /^\s*\\/' > professional_development_short.md
+cd ..
+# publications_short.md references an online list and is made manually
+
+
 # Build more common/shorter Resume format
 pandoc -s --template=tex/template.tex -o tex/resume.tex \
 	cv/contact.md \
 	cv/professional_summary.md \
+	cv/career_aim.md \
 	cv/education.md \
 	cv/research_experience.md \
+	cv/graduate_research_experience.md \
 	cv/affiliations.md \
 	cv/service_activities.md \
 	cv/professional_development.md \
+	cv/graduate_training.md \
+	cv/skills.md \
+	cv/teaching_experience \
 	cv/publications.md \
 	#cv/references.md
+
+	#cv/funding.md
+
+	# Build more common/shorter Resume format
+pandoc -s --template=tex/template.tex -o tex/resume_short.tex \
+		cv/contact.md \
+		cv/professional_summary.md \
+		cv/education.md \
+		cv/research_experience_short.md \
+		cv/graduate_research_experience_short.md \
+		cv/affiliations.md \
+		cv/service_activities_short.md \
+		cv/professional_development_short.md \
+		cv/publications_short.md \
+		#cv/references.md
+
+		#cv/funding.md
+
 
 pandoc -s -o cv.md \
 	cv/contact.md

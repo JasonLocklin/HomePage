@@ -1,0 +1,479 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt]{article}
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%% Letter sized paper
+\usepackage[paper=letterpaper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=1.0in,     % Length of section titles
+            marginparsep=0in,       % Space between titles and text
+            margin=1in,               % 1 inch margins
+            includemp]{geometry}
+\parskip=2pt
+
+%% Use these lines for A4-sized paper
+%\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+%            margin=25mm,              % 25mm margins
+%            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+%% This gives us fun enumeration environments. compactenum will be nice.
+\usepackage{paralist}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Allow urls to break across lines
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+		    
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%PDF specific settings:
+\usepackage[pdftex,
+        pdftitle={curriculum vitae},
+        pdfauthor={Jason Locklin},
+        pdfproducer={pdfLaTeX}]{}
+
+%Definitions (ie., \item[]) should start on a new, indented line
+\usepackage{enumitem}
+\setdescription{labelsep=\textwidth}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+%
+% Usage: \makeheading{name}
+%
+% Place at top of document. It should be the first thing.
+\newcommand{\makeheading}[1]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+                {\large \bfseries #1}\\[ -0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+
+\renewcommand{\section}[2]%
+        {\pagebreak[2]\vspace{1.3\baselineskip}% space between sections
+		\pagebreak[3]
+		\phantomsection\addcontentsline{toc}{section}{#1}%
+         \nopagebreak \hspace{0in}% 
+	 \nopagebreak
+         \marginpar{
+         \raggedright \scshape #1}#2}\nopagebreak
+
+% An itemize-style list with lots of space between items
+%\newenvironment{outerlist}[1][\enskip\textbullet]%
+%        {\begin{enumerate}[#1]}{\end{enumerate}%
+%         \vspace{-.6\baselineskip}}
+
+
+\newlist{outerlist}{itemize}{3}
+    \setlist[outerlist]{label=\enskip,leftmargin=*,itemsep=8pt}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]
+    {\begin{samepage}\begin{compactenum}[#1]}
+    {\end{compactenum}\end{samepage}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[1]}
+
+% Support pandoc's "tightlist"
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+% column width for contact info:
+\newlength{\rcollength}\setlength{\rcollength}{3in}
+
+% Include the content from markdown files with pandoc
+% See makefile
+\makeheading{Dr. Jason Locklin, Ph.D.}
+
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+    & \\
+  & Research Officer\\
+  & Research and Organizational Transformation \\
+  & Waterloo Region District School Board \\
+  & 51 Ardelt Avenue, Kitchener ON, N2C 2R5 \\
+  & \textit{Email:} \href{mailto:locklin.jason@gmail.com}{locklin.jason@gmail.com}\\
+  & \textit{Voice:} 226-808-1961\
+
+\end{tabular}
+
+\subsection{Profile Summary}\label{profile-summary}
+
+\textbf{Education Research Project Management and Organizational
+Transformation}
+
+Innovative community research with large-scale research projects and
+skilled knowledge translation. Project management skills, complemented
+with a high degree of technical expertise in research design, ethics
+protocols, measurement theory, advanced qualitative and quantitative
+statistical analysis, including the translation of complex data to
+accessible and actionable insights to support and achieve organizational
+goals.
+
+\subsection{Education}\label{education}
+
+\href{http://www.uwaterloo.ca/}{University of Waterloo}:
+
+\begin{itemize}
+\item
+  \href{http://psychology.uwaterloo.ca}{\textbf{Ph.D., Psychology,
+  Behavioural and Cognitive Neuroscience}} \hfill 2015
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Dissertation: \emph{Perceptual and Memory Deficits in Unilateral
+    Neglect}
+  \item
+    Area of Study: Stroke, Perception, and Memory.
+  \end{itemize}
+\end{itemize}
+
+\pagebreak[2]
+
+\begin{itemize}
+\item
+  \href{http://psychology.uwaterloo.ca}{\textbf{M.A., Psychology,
+  Behavioural and Cognitive Neuroscience}} \hfill 2009
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Thesis: \emph{Development of a Measure of Visuomotor Control for
+    Assessing the Long-term Effects of Concussion}
+  \item
+    Area of Study: Fine Motor Control, Concussion Research.
+  \end{itemize}
+\end{itemize}
+
+\pagebreak[2]
+
+\begin{itemize}
+\item
+  \href{http://science.uwaterloo.ca}{\textbf{B.Sc. (Honours)}},
+  Psychology, Biology (minor) \hfill 2007
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Course load including strong mix of Psychology with Natural and Life
+    Sciences.
+  \end{itemize}
+\end{itemize}
+
+\pagebreak[3]
+
+\subsection{Professional Experience}\label{professional-experience}
+
+\begin{itemize}
+\item
+  \textbf{Research Officer},
+  \href{https://www.wrdsb.ca/about-the-wrdsb/research/}{Waterloo Region
+  District School Board} \hfill  2018 to Present
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Lead development and implementation of system-level measurements to
+    enhance educational outcomes and operational efficiency.
+  \item
+    Maintain and utilize a student demographic data tool to support
+    equity goals and resource allocation.
+  \item
+    Collaborate with administrators to provide actionable data insights,
+    improving program effectiveness and student well-being.
+  \item
+    Manage large research projects from conception to completion,
+    employing quantitative and qualitative methods for data collection,
+    analysis, and knowledge translation.
+  \item
+    Oversee a district-wide longitudinal student well-being research
+    project, producing analytics and data visualizations with R.
+  \item
+    Conduct professional development workshops on integrating research
+    data into school leadership strategies.
+  \item
+    Lead projects on student and staff well-being, from planning and
+    data collection to communication of results.
+  \end{itemize}
+\end{itemize}
+
+\pagebreak[2]
+
+\begin{itemize}
+\item
+  \textbf{Research Associate}, \href{https://family-medicine.ca/}{Centre
+  for Family Medicine} \hfill 2016 - 2018
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Developed and evaluated primary-care programs for dementia and
+    geriatric issues in a multidisciplinary team.
+  \item
+    Managed a pilot frailty screening measure and created a
+    collaboration for screening patients 75+ years old.
+  \item
+    Refined screening measures based on field testing and evaluated
+    clinician improvements in confidence and competence.
+  \item
+    Trained and supervised co-op students and volunteer research
+    assistants.
+  \end{itemize}
+\end{itemize}
+
+\pagebreak[2]
+
+\begin{itemize}
+\item
+  \textbf{Statistical Consultant},
+  \href{https://family-medicine.ca/}{Centre for Family Medicine}
+  \hfill 2016
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Analyzed identity-based and clinical data, including data cleaning
+    and visualization with R, to evaluate primary care procedures.
+  \end{itemize}
+\end{itemize}
+
+\pagebreak[2]
+
+\textbf{Graduate and Undergraduate Research Employment},
+\href{http://psychology.uwaterloo.ca}{Department of Psychology},
+\href{http://www.uwaterloo.ca/}{University of Waterloo}:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Research Assistant}; Perception, action and brain injury.
+  \hfill 2007 - 2015
+\item
+  \textbf{Research Assistant}; Decision making. \hfill             2007
+\item
+  \textbf{Research Assistant}; Psychophysics. \hfill               2005
+  - 2006
+\item
+  \textbf{Laboratory Coordinator}; Attention and clinical depression.
+  \hfill                 2005 - 2006
+\item
+  \textbf{Research Assistant}; Attention and clinical depression.
+  (volunteer) \hfill                    2004 - 2005
+\end{itemize}
+
+\pagebreak[3]
+
+\subsubsection{Affiliations}\label{affiliations}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Member}, \href{https://www.aero-aoce.org}{Association of
+  Educational Researchers of Ontario} \hfill 2018 - 2024
+\item
+  \textbf{Member}, \href{http://thedaag.uwaterloo.ca/}{Danckert
+  Attention and Action Group} \hfill 2008 - 2015
+\item
+  \textbf{Advisory Council}, \href{http://badsciencewatch.ca}{Bad
+  Science Watch} \hfill 2012
+\item
+  \textbf{Member}, \href{VisionSciences.ca}{Vision Sciences Society}
+  \hfill 2006
+\end{itemize}
+
+\pagebreak[3]
+
+\subsection{Service Activities}\label{service-activities}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Executive Member at Large},
+  \href{https://www.aero-aoce.org/aero-aoce-executiveexeacutecutif-drsquoaero-aoce.html}{Association
+  of Educational Researchers of Ontario (AERO-AOCE)} \hfill 2023 -
+  Present
+\item
+  \textbf{Host/Facilitator}, AERO-AOCE
+  \href{https://mail.google.com/mail/u/0/\#search/aero+fall+conference?projector=1}{Fall
+  Conference} \hfill 2023
+\item
+  \textbf{Host/Facilitator}, AERO-AOCE
+  \href{https://drive.google.com/file/d/1mNDOn_Xfc6B3_2UVLKF-4KWSdrHhBFQp/view}{Spring
+  Special Interest Group} \hfill 2023
+\item
+  \textbf{Science Advisor}, Advisory Committee: Bad Science Watch.
+  \hfill 2012
+\item
+  \textbf{President}: U.W. Undergraduate Psychology Society. \hfill 2005
+  - 2007
+\end{itemize}
+
+\pagebreak[3]
+
+\section{Professional Development}\label{professional-development}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Project Management Professional (PMP) Certification};
+  \href{https://www.pmi.org/certifications/project-management-pmp}{PMI}
+  \hfill In-Progress
+\item
+  \textbf{Leading for Change: Understanding Colonialism, Human Rights
+  and Equity}; \href{https://www.wrdsb.ca/}{WRDSB} \hfill 2024
+\item
+  \textbf{WRDSB Microsoft Power BI Hands-On Training};
+  \href{https://goanalyticsbi.com/workshops/}{Go Analytics} \hfill 2023
+\item
+  \textbf{The Scientist Knowledge Translation Training (SKTT™) course};
+  \href{https://www.sickkids.ca/en/learning/our-programs/knowledge-translation-program/}{SickKids}
+  \hfill 2018
+\end{itemize}
+
+\pagebreak[3]
+
+\subsection{Publications}\label{publications}
+
+Refereed:
+
+\begin{itemize}
+\item
+  Lee, L., \textbf{Locklin, J.}, Patel, T., Lu, S. K., Hillier, L. M.
+  (2022) Recruitment of participants for dementia research:
+  interprofessional perspectives from primary care-based memory clinics.
+  Neurodegenerative Disease Management. 12 (3), 117-127
+  \href{https://doi.org/10.2217/nmt-2021-0053}{doi:10.2217/nmt-2021-0053}
+\item
+  Lee, L., Hillier, L., \textbf{Locklin, J.}, Lee, J., Slonim, K. (2019)
+  Advanced care planning for persons with dementia in primary care:
+  Attitudes and barriers among health-care professionals. Journal of
+  palliative care, 34 (4), 248-254.
+  \href{https://doi.org/10.1177/0825859718812463}{doi:10.1177/0825859718812463}
+\item
+  Lee, L., Hillier, L., \textbf{Locklin, J.}, Lumley-Leger, K., Molnar,
+  F. (2019) Specialist and family physician collaboration: Insights from
+  primary care-based memory clinics. Health \& Social Care in the
+  Community. 27 (4), e522-e533.
+  \href{https://doi.org/10.1111/hsc.12751}{doi:10.1111/hsc.12751}
+\item
+  Lee, L., Patel, T., \textbf{Locklin, J.}, Milligan., J., Pefanis, J.,
+  Costa, A., Lee, J., Slonim, K., Giangregorio, L., Hunter, S., Keller,
+  H., Boscart, V. (2018). Frailty screening and case-finding for complex
+  chronic conditions in older adults in primary care. Geriatrics, 3 (3),
+  39.
+  \href{http://dx.doi.org/10.3390/geriatrics3030039}{doi:10.3390/geriatrics3030039}
+\item
+  \textbf{Locklin, J.} (2015). \emph{Perceptual and Memory Deficits in
+  Unilateral Neglect.} (Dissertation, University of Waterloo, Waterloo,
+  Canada).\\
+  Retrieve from
+  \href{http://hdl.handle.net/10012/9590}{hdl.handle.net/10012/9590}
+\item
+  \textbf{Locklin, J.}, Bunn, L., Roy, E. \& Danckert, J. (2010).
+  Measuring Deficits in Visually Guided Action Post-Concussion.
+  \emph{Sports Medicine}, \emph{40}, 183-187.\\
+  \href{http://dx.doi.org/10.2165/11319440-000000000-00000}{doi:10.2165/11319440-000000000-00000}
+\item
+  \textbf{Locklin, J.} (2009). \emph{Development of a measure of
+  visuomotor control for assessing the long-term effects of concussion.}
+  (Master's thesis, University of Waterloo, Waterloo, Canada).\\
+  Retrieve from
+  \href{http://hdl.handle.net/10012/4740}{hdl.handle.net/10012/4740}
+\item
+  Striemer, C., \textbf{Locklin, J.}, Blangero, A., Rossetti, Y.,
+  Pisella, L. \& Danckert, J. (2008). Attention for action? Examining
+  the link between attention and visuomotor control deficits in a
+  patient with optic ataxia. \emph{Neuropsychologia}, \emph{47},
+  1491-1499.\\
+  \href{http://dx.doi.org/10.1016/j.neuropsychologia.2008.12.021}{doi:10.1016/j.neuropsychologia.2008.12.021}
+\end{itemize}
+
+Non-Refereed:
+
+\begin{itemize}
+\item
+  2022-2023 Safe, Caring and Inclusive School Survey -- Summary Report
+  (2024). Public report produced by the Waterloo Region District School
+  Board. Retrieve from
+  \href{https://www.wrdsb.ca/about-the-wrdsb/research/reports/scis/2022-2023-safe-caring-and-inclusive-school-survey-summary-report/}{wrdsb.ca/about-the-wrdsb/research/reports/scis/2022-2023-safe-caring-and-inclusive-school-survey-summary-report/}
+\item
+  Newman, G., Duffy, C., Powell, A., Gray, R., \& \textbf{Locklin, J.}
+  (2012). Position Paper on Electromagnetic Hypersensitivity (Idiopathic
+  Environmental Intolerance Attributed to Electromagnetic Fields).
+  Canada: \emph{Bad Science Watch}.\\
+  Retrieve from
+  \href{http://www.badsciencewatch.ca/projects/investigation-of-anti-wifi-activism-in-canada}{www.badsciencewatch.ca/projects/investigation-of-anti-wifi-activism-in-canada}
+\item
+  \textbf{Locklin, J.}, \& Danckert, J. (2010). Do we have Independent
+  Visual Streams for Perception and Action? a Response. Preprint.\\
+  Retrieve from \href{http://cogprints.org/6854/}{cogprints.org/6854/}
+\item
+  \textbf{Locklin, J.}, Danckert, J. (2009). Changes in Visuomotor
+  Performance of Concussed Individuals. Poster. Abstract published in
+  \emph{Journal of Vision}, \emph{9:8}, 1103-1103.\\
+  \href{http://dx.doi.org/10.1167/9.8.1103}{doi:10.1167/9.8.1103}
+\item
+  Law, A., McCabe, S., \textbf{Locklin, J.}, Tan, C., \& Morris, S.
+  (2006). Perceptions of social rank as a predictor of anger and
+  depression symptoms. Poster presented at the Graduate Student Research
+  Conference, University of Waterloo, Waterloo, Canada.
+\end{itemize}
+
+\pagebreak[3]
+
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
