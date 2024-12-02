@@ -23,14 +23,30 @@ pandoc -s --template=tex/template.tex -o tex/resume.tex \
 	cv/graduate_research_experience.md \
 	cv/affiliations.md \
 	cv/service_activities.md \
+	cv/teaching_experience.md \
 	cv/professional_development.md \
 	cv/graduate_training.md \
 	cv/skills.md \
-	cv/teaching_experience.md \
-	cv/publications.md \
+	cv/publications.md #\
 	#cv/references.md
 
 	#cv/funding.md
+
+pandoc -s -t plain -o cv.txt \
+		cv/contact.md \
+		cv/professional_summary.md \
+		cv/career_aim.md \
+		cv/education.md \
+		cv/research_experience.md \
+		cv/graduate_research_experience.md \
+		cv/affiliations.md \
+		cv/service_activities.md \
+		cv/teaching_experience.md \
+		cv/professional_development.md \
+		cv/graduate_training.md \
+		cv/skills.md \
+		cv/publications.md \
+		cv/references.md
 
 	# Build more common/shorter Resume format
 pandoc -s --template=tex/template.tex -o tex/resume_short.tex \
@@ -48,8 +64,6 @@ pandoc -s --template=tex/template.tex -o tex/resume_short.tex \
 		#cv/funding.md
 
 
-pandoc -s -o cv.md \
-	cv/contact.md
 
 #Use section headings only
 sed -i '' 's/subsection/section/' tex/resume.tex
@@ -58,6 +72,7 @@ sed -i '' 's/[[:space:]]\\begin{itemize}/\\begin{innerlist}/' tex/resume.tex
 sed -i '' 's/\\begin{itemize}/\\begin{outerlist}/' tex/resume.tex #CV uses outerlist/innerlist instead of itemize
 sed -i '' 's/[[:space:]]\\end{itemize}/\\end{innerlist}/' tex/resume.tex
 sed -i '' 's/\\end{itemize}/\\end{outerlist}/' tex/resume.tex #CV uses outerlist/innerlist instead of itemize
+
 
 cd tex/
 pdflatex resume.tex

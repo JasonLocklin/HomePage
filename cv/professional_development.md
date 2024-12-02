@@ -1,7 +1,6 @@
 Professional Development
 =======================
 
-* **Project Management Professional (PMP) Certification**; [PMI](https://www.pmi.org/certifications/project-management-pmp) \hfill In-Progress
 
 * **Leading for Change: Understanding Colonialism, Human Rights and Equity**; [WRDSB](https://www.wrdsb.ca/) \hfill 2024
 
@@ -17,7 +16,7 @@ Professional Development
 
 \pagebreak[2]
 
-* **The Scientist Knowledge Translation Training (SKTT™) course**; [SickKids](https://www.sickkids.ca/en/learning/our-programs/knowledge-translation-program/) \hfill 2018
+* **The Scientist Knowledge Translation Training (SKTT™)**; [SickKids](https://www.sickkids.ca/en/learning/our-programs/knowledge-translation-program/) \hfill 2018
 
   - Completed intense 2-day workshop focused on effective research dissemination across fields like health, education, and social sciences.
   - Learned from Dr. Melanie Barwick, an expert in implementation science and knowledge translation, on enhancing research impact.

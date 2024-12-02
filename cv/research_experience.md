@@ -1,31 +1,34 @@
+\pagebreak[4]
+
 ## Professional Experience
 
 * **Research Officer**, [Waterloo Region District School Board](https://www.wrdsb.ca/about-the-wrdsb/research/) \hfill  2018 to Present
 
-  + Spearhead the development and implementation of system-level measurements aligned with WRDSB’s Strategic Plan and Board Improvement and Equity Plan, focusing on enhancing educational outcomes and operational efficiency through evidence-based practices.
-  + Maintain a student demographic data tool that leverages Canadian Census data and guide senior team on using it to support WRDSB equity goals for resource allocation.
-  + Collaborate with senior administrators and key stakeholders to provide actionable insights into data, facilitating data-informed decision-making to improve program effectiveness and student well-being.
-  + Managed and guided several large research projects from conception through to completion, employing both quantitative and qualitative methodologies to assess and address complex educational challenges. This includes data collection using the student information system, provincial and national data, and surveys developed using the Qualtrics platform, and knowledge translation to bring the data to action in the organization.
-  + Deliver a major, district-wide longitudinal student well-being research project that involves tens of thousands of students completing both a normed, standardized measurement, [the Middle Years Development Instrument](https://earlylearning.ubc.ca/monitoring-system/mdi/mdi-overview/), and locally developed questions. I produce analytics and data visualizations in the form of customized pdf reports for every school using the "R" statistical software package.
-  + Lead professional development workshops for WRDSB school administrators focusing on the integration of the Middle Years Development Instrument into practical school leadership strategies and utilizing the data effectively for their School Learning And Improvement Plans.
-  + Responsible for several other major projects supporting student achievement and well-being as well as the implementation of the locally delivered staff well-being "Guarding Minds at Work" survey. I manage these from the planning and data collection stages, through to qualitative and quantitative analytics, to communicating the results. Each project involves engaging in knowledge translation, and that will often involve taking into account new insights from the field of education research in a way that carefully considers the needs of department and organizational leadership.
+  + Spearhead the development and implementation of system-level measurements aligned with WRDSB's Strategic Plan and Board Improvement and Equity Plan / Student Achievement Plan, focusing on enhancing educational outcomes and operational efficiency through evidence-based practices.
+  + Maintain a student demographic data tool that leverages Canadian Census data and guide senior team on using it to support WRDSB equity goals for a more equitable allocation of resources to schools.
+  + Lead complex research projects from conception to completion, addressing the board's goals and ministry initiatives. For example, developed an innovative statistical model to identify at-risk students, contributing to a 5% increase in graduation rates over three years.
+  + Deliver a major, district-wide longitudinal student well-being research project involving tens of thousands of students completing both a normed, standardized measurement, [the Middle Years Development Instrument](https://earlylearning.ubc.ca/monitoring-system/mdi/mdi-overview/), and locally developed questions. Produce analytics and data visualizations using R to automate the creation of customized PDF reports for every school.
+  + Lead professional development workshops for WRDSB school administrators, translating complex research into practical school leadership strategies, and guiding the integration of data into School Learning and Improvement Plans.
+  + Manage several major projects supporting student achievement and well-being, including the implementation of the staff well-being "Guarding Minds at Work" survey. Oversee all stages from planning and data collection to qualitative and quantitative analytics and results communication.
+  + Collaborate with senior administrators and key stakeholders to provide actionable insights, facilitating data-informed decision-making to improve program effectiveness and student well-being.
+  + Demonstrate leadership among peers by cultivating a culture of respect, innovation, and accountability, motivating team members and fostering an inclusive work environment that recognizes the strengths that come from diversity.
 
 \pagebreak[2]
 
 * **Research Associate**, [Centre for Family Medicine](https://family-medicine.ca/)  \hfill 2016 - 2018
 
-  + Responsible for working as part of a multi-disciplinary team of researchers and healthcare professionals with a culture of inquiry and creative thinking, to develop, evaluate, and disseminate innovative primary-care programs to improve quality-of-care for persons with dementia, frailty, and related geriatric issues.
-  + Manage and achieve successful completion of an innovative pilot frailty screening measure for the Waterloo Region Local Health Network
-  + Develop a collaboration between a family health organization (family doctor’s office) with a community pharmacy to deliver an empathetic screening program to all patients 75+ years old, using a human-centred approach.
-  + Field tested the screening measure with medical professionals and adjusted the screening measure for better strategy implementation (e.g., booking procedures were adjusted to better meet the needs of patients and administration)
-  + Utilized qualitative research methods to evaluate the successful improvements in confidence, self-report competence, and capacity of clinicians after participation in a memory-clinic training program.
-  + Trained and supervised co-op students and volunteer research assistants.
+  + Contributed to a multi-disciplinary team of researchers and healthcare professionals to develop, evaluate, and disseminate innovative primary-care programs, fostering a culture of inquiry and creative thinking to improve quality-of-care for  persons with dementia, frailty, and related geriatric issues.
+  + Successfully managed and completed an innovative pilot frailty screening measure for the Waterloo Region Local Health Network, demonstrating project management skills and ability to meet strategic objectives.
+  + Initiated and developed a collaboration between a family health organization and a community pharmacy to deliver an empathetic screening program, showcasing ability to build partnerships and implement community-focused initiatives.
+  + Conducted field testing of the screening measure with medical professionals, utilizing feedback to refine implementation strategies and improve program effectiveness.
+  + Applied qualitative research methods to evaluate improvements in clinician confidence, self-reported competence, and capacity following participation in a memory-clinic training program, demonstrating skills in program evaluation and professional development assessment.
+  + Trained and supervised co-op students and volunteer research assistants, exhibiting leadership and mentorship capabilities.
 
 \pagebreak[2]
 
 * **Statistical Consultant**, [Centre for Family Medicine](https://family-medicine.ca/)   \hfill 2016
 
-  + Collected, tracked and made use of identity based data from clinical and administrative databases, outcome data, survey methodologies, and clinical measures for statistical analysis to evaluate new and existing procedures in primary care.
+  + Collected, tracked and made use of identity-based data from clinical and administrative databases, outcome data, survey methodologies, and clinical measures for statistical analysis to evaluate new and existing procedures in primary care.
   + Completed statistical reports with R, including data cleaning and validation, as well as visualization.
 
 \pagebreak[2]

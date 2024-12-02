@@ -21,6 +21,14 @@
 
 \pagebreak[2]
 
+* WRDSB Accessibility Plan Implementation Committee \hfill 2020 - Present
+
+  - Contributing to board-wide planning and implementation of [AODA](https://aoda.ca/laws/) requirements.
+  - Providing research and data analysis support for accessibility planning and monitoring.
+
+\pagebreak[2]
+
+
 * **Science Advisor**, Advisory Committee: Bad Science Watch. \hfill 2012
 
   - Provided support and science advice for the non-profit public interest advocacy group.

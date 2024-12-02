@@ -7,7 +7,6 @@ publishDir = "docs"
 
 paginate = 20
 
-disqusShortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
