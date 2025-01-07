@@ -6,8 +6,24 @@
     <description>Recent content in Posts on “Let the Dataset Change Your Mindset”</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Mar 2024 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://jason.locklin.science/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes on Deploying a Virtual Private Shiny Server</title>
+      <link>http://jason.locklin.science/posts/shinyserver/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://jason.locklin.science/posts/shinyserver/</guid>
+      <description>Why Shiny and Surveydown? Link to heading Shiny is a mature product for creating dynamic web applications (typically dashboards) with R. It&amp;rsquo;s been around a while and developed professionally by Posit. Surveydown is a brand new project that uses Shiny as the engine for surveys. Keep that in mind. It&amp;rsquo;s very new and being actively developed.
+Writing surveys in code opens up several valuable possibilities:
+Transparency: Version controlling your survey code provides a clear history of changes.</description>
+    </item>
+    <item>
+      <title>R Workshops</title>
+      <link>http://jason.locklin.science/posts/workshops/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://jason.locklin.science/posts/workshops/</guid>
+      <description>I Can Help You or Your Department Use R! Link to heading R is a transformative tool in education research, combining powerful analytical capabilities with systematic transparency and reproducibility. Through nearly two decades of conducting research with R and associated tools, I&amp;rsquo;ve developed deep expertise in using these tools and I love opportunities to pass on my experience by sharing skills to help other researchers enhance their capabilities. This has evolved into delivering workshops that focus on practical, hands-on learning that I have provided for the Association of Educational Researchers of Ontario and a research team at an Ontario School Board.</description>
+    </item>
     <item>
       <title>Resources Page</title>
       <link>http://jason.locklin.science/posts/resources/</link>
