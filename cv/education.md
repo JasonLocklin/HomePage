@@ -1,4 +1,5 @@
-## Education
+Education
+=========
 
 [University of Waterloo](http://www.uwaterloo.ca/):
 

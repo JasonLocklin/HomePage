@@ -1,20 +1,20 @@
-### Teaching and Training Delivery
+Teaching and Training Delivery
+==============================
 
-**Research and Analytics Workshop Delivery**:
 
-* **Introduction to R for Education Research**: Full-Day Workshop \hfill    2024
+**Introduction to R for Education Research**: Full-Day Workshop \hfill    2024
 
   + Delivered comprehensive training to TCDSB research team, progressing from R fundamentals to creating publication-quality visualizations.
   + Developed and provided persistent online documentation supporting continued learning and implementation.
   + Facilitated hands-on experimental approach building confidence with R, RStudio, and tidyverse packages.
 
-* **AERO Lunch & Learn**: Virtual Workshop \hfill    2024
+**AERO Lunch & Learn**: Virtual Workshop \hfill    2024
 
   + Led professional development session introducing R for data analysis and reporting practices for education researchers in Ontario school boards.
   + Demonstrated innovative approaches to research analysis and visualization.
   + Generated follow-up requests for additional in-person workshops from participating boards.
 
-* **School Climate Survey Results**: Family of Schools Training Sessions \hfill    2019-2024
+**School Climate Survey Results**: Family of Schools Training Sessions \hfill    2019-2024
 
   + Facilitate annual professional development for WRDSB administrators on interpreting and implementing school climate survey data.
   + Guide administrators through analysis of Middle Years Development Instrument results and other climate measures.
@@ -22,9 +22,9 @@
 
 \pagebreak[2]
 
-[Department of
+**[Department of
 Psychology](http://psychology.uwaterloo.ca), [University of
-Waterloo](http://www.uwaterloo.ca/) Teaching Assistantships:
+Waterloo](http://www.uwaterloo.ca/)** Teaching Assistantships:
 
 * **Physiological Psychology**: T.A. \hfill    2011 & 2014
 

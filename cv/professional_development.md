@@ -2,12 +2,14 @@ Professional Development
 =======================
 
 
-* **Leading for Change: Understanding Colonialism, Human Rights and Equity**; [WRDSB](https://www.wrdsb.ca/) \hfill 2024
+**Leading for Change: Understanding Colonialism, Human Rights and Equity**; [WRDSB](https://www.wrdsb.ca/) \hfill 2024
 
   - Course explored the nuanced concepts of colonialism, human rights and equity —how they are each unique, different, and how they relate to one another, to education and to leadership.
   - Interactive, experiential learning exploring notions of colonialism, oppression, and racism and uncovering how these impact all aspects of education, while considering personal identity and one's own role in upholding these structures.
 
-* **WRDSB Microsoft Power BI Hands-On Training**; [Go Analytics](https://goanalyticsbi.com/workshops/) \hfill 2023
+\pagebreak[2]
+
+**WRDSB Microsoft Power BI Hands-On Training**; [Go Analytics](https://goanalyticsbi.com/workshops/) \hfill 2023
 
   - Mastered the full spectrum of Power BI tools, from data connection to publishing dynamic dashboards.
   - Learned from Microsoft Certified instructor Klayton Gonçalves, leveraging his extensive data analytics expertise.
@@ -16,7 +18,7 @@ Professional Development
 
 \pagebreak[2]
 
-* **The Scientist Knowledge Translation Training (SKTT™)**; [SickKids](https://www.sickkids.ca/en/learning/our-programs/knowledge-translation-program/) \hfill 2018
+**The Scientist Knowledge Translation Training (SKTT™)**; [SickKids](https://www.sickkids.ca/en/learning/our-programs/knowledge-translation-program/) \hfill 2018
 
   - Completed intense 2-day workshop focused on effective research dissemination across fields like health, education, and social sciences.
   - Learned from Dr. Melanie Barwick, an expert in implementation science and knowledge translation, on enhancing research impact.

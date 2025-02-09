@@ -1,8 +1,9 @@
 \pagebreak[4]
 
-## Professional Experience
+Professional Experience
+=======================
 
-* **Data Scientist**, [Toronto Catholic District School Board](https://www.tcdsb.org/) \hfill 2025 to Present
+**Data Scientist**, [Toronto Catholic District School Board](https://www.tcdsb.org/) \hfill 2025 to Present
 
   + Lead the transformation of data analysis and communication approaches across the TCDSB, developing innovative solutions to support student success through data-driven decision making.
   + Design and maintain complex data pipelines integrating multiple platforms including Microsoft SQL databases, Azure, Aspen student information system, and Alchemer survey platform to ensure reliable, timely data flow for analytics.
@@ -12,7 +13,9 @@
   + Build organizational capacity for data literacy and evidence-based practice through professional development and collaborative partnerships while fostering an inclusive, innovative team environment.
   + Provide technical leadership and supervision to the Senior Research Technician, supporting the advancement of analytics infrastructure and reproducible research practices.
 
-* **Research Officer**, [Waterloo Region District School
+\pagebreak[2]
+
+**Research Officer**, [Waterloo Region District School
 Board](https://www.wrdsb.ca/about-the-wrdsb/research/) \hfill 2018 to 2025
 
   + Spearhead the development and implementation of system-level measurements aligned with WRDSB's Strategic Plan and Board Improvement and Equity Plan / Student Achievement Plan, focusing on enhancing educational outcomes and operational efficiency through evidence-based practices.
@@ -26,7 +29,7 @@ Board](https://www.wrdsb.ca/about-the-wrdsb/research/) \hfill 2018 to 2025
 
 \pagebreak[2]
 
-* **Research Associate**, [Centre for Family Medicine](https://family-medicine.ca/)  \hfill 2016 - 2018
+**Research Associate**, [Centre for Family Medicine](https://family-medicine.ca/)  \hfill 2016 - 2018
 
   + Contributed to a multi-disciplinary team of researchers and healthcare professionals to develop, evaluate, and disseminate innovative primary-care programs, fostering a culture of inquiry and creative thinking to improve quality-of-care for  persons with dementia, frailty, and related geriatric issues.
   + Successfully managed and completed an innovative pilot frailty screening measure for the Waterloo Region Local Health Network, demonstrating project management skills and ability to meet strategic objectives.
@@ -37,7 +40,7 @@ Board](https://www.wrdsb.ca/about-the-wrdsb/research/) \hfill 2018 to 2025
 
 \pagebreak[2]
 
-* **Statistical Consultant**, [Centre for Family Medicine](https://family-medicine.ca/)   \hfill 2016
+**Statistical Consultant**, [Centre for Family Medicine](https://family-medicine.ca/)   \hfill 2016
 
   + Collected, tracked and made use of identity-based data from clinical and administrative databases, outcome data, survey methodologies, and clinical measures for statistical analysis to evaluate new and existing procedures in primary care.
   + Completed statistical reports with R, including data cleaning and validation, as well as visualization.

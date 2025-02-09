@@ -1,4 +1,5 @@
-## Profile Summary
+Profile Summary
+===============
 
 **Leader in Education Research, Analytics, and Organizational Transformation**
 

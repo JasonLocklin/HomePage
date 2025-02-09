@@ -1,4 +1,5 @@
-### Affiliations
+Affiliations
+============
 
 -   [Ontario Data User Grop](https://dugroup.ca/about/) \hfill 2018 - Present
 -   [Association of Educational Researchers of Ontario](https://www.aero-aoce.org) \hfill 2018 - Present
