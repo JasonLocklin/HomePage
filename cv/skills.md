@@ -25,23 +25,17 @@ Technical Skills
 * **Statistical / Data Analytical Software**
 
   + [R](http://www.r-project.org/), statistics programming, data visualization, and automated report generation.
-  + [SPSS](http://www.spss.com/), statistical analysis for
-    social sciences.
+  + [Alchemer](https://www.alchemer.com/), survey data management.
+  + [SPSS](http://www.spss.com/), statistical analysis for social sciences.
   + [Power BI](https://powerbi.microsoft.com/en-ca/), Data modelling, dash-boarding and interactive visualizations.
   + [Python](https://www.python.org/) programming language, combined with [Jupyter](https://jupyter.org/) notebooks.
-  + [SAS](http://www.sas.com/), data management and advanced
-    statistical analysis.
-  + [Scipy/Pylab](http://www.scipy.org/), Python library for
-    scientific computation, data visualization.
-  + [Matlab](https://www.mathworks.com/products/matlab/),
-    high-level technical computing language.
   + [Qualtrics](https://www.qualtrics.com/), survey creation and data collection.
 
 * **Database / Data Management Systems**
 
   + [Aspen](https://www.follettaspen.com/) student information system.
-  + Trillium Student information system.
-  + [Oracle](https://www.oracle.com/), [MySQL](https://www.mysql.com/),  [SQLite](https://www.sqlite.org/index.html) databases.
+  + [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server),  [MySQL](https://www.mysql.com/),  [SQLite](https://www.sqlite.org/index.html) databases.
+  + [Microsoft SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=sql-server-ver16), SQL database management and scripting.
   + [Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access) desktop database software.
   + File based [CSV](https://www.rfc-editor.org/rfc/rfc4180), [Parquet](https://parquet.apache.org/), other columnar data storage formats, Native data storage formats including Python pickle and R RDS/RData files.
   + Experience optimizing data storage for analysis performance.
@@ -64,10 +58,8 @@ Technical Skills
 
 * **Publishing**
 
-  + Experience with [R Notebooks](https://rmarkdown.rstudio.com/r_notebooks.html), [RMarkdown](https://rmarkdown.rstudio.com/), [Pandoc Markdown](https://pandoc.org/), and [Shiny](https://shiny.posit.co/) for interactive applications and dynamic documents.
-  + Comfortable writing with [LaTeX](https://www.latex-project.org/) (this document is produced with LaTeX), and [BibTeX](http://www.bibtex.org/) for
-    technical and scientific documents, as well as common
-    office suites such as [GSuite](https://workspace.google.com/), [Microsoft Office](https://www.microsoft.com/microsoft-365), and [LibreOffice](https://www.libreoffice.org/).
+  + Experience with, [Quarto](https://quarto.org/), [R Notebooks](https://rmarkdown.rstudio.com/r_notebooks.html), [RMarkdown](https://rmarkdown.rstudio.com/), [Pandoc Markdown](https://pandoc.org/), and [Shiny](https://shiny.posit.co/) for interactive applications and dynamic documents.
+  + Comfortable writing with [LaTeX](https://www.latex-project.org/) (this document is produced with LaTeX), and [BibTeX](http://www.bibtex.org/) for technical and scientific documents, as well as common office suites such as [GSuite](https://workspace.google.com/), [Microsoft Office](https://www.microsoft.com/microsoft-365), and [LibreOffice](https://www.libreoffice.org/).
   + Experience creating automated, reproducible technical documentation.
 
 \pagebreak[3]
