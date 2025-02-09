@@ -2,7 +2,18 @@
 
 ## Professional Experience
 
-* **Research Officer**, [Waterloo Region District School Board](https://www.wrdsb.ca/about-the-wrdsb/research/) \hfill  2018 to Present
+* **Data Scientist**, [Toronto Catholic District School Board](https://www.tcdsb.org/) \hfill 2025 to Present
+
+  + Lead the transformation of data analysis and communication approaches across the TCDSB, developing innovative solutions to support student success through data-driven decision making.
+  + Design and maintain complex data pipelines integrating multiple platforms including Microsoft SQL databases, Azure, Aspen student information system, and Alchemer survey platform to ensure reliable, timely data flow for analytics.
+  + Develop and maintain PowerBI dashboards and interactive visualizations that transform complex educational data into accessible, actionable insights for stakeholders across nearly 200 schools serving 84,000 students.
+  + Implement sophisticated data models and statistical analyses using R and SQL to support evidence-based decision making and strategic planning initiatives.
+  + Guide the development and implementation of data governance and management strategies to ensure data quality and effective knowledge mobilization.
+  + Build organizational capacity for data literacy and evidence-based practice through professional development and collaborative partnerships while fostering an inclusive, innovative team environment.
+  + Provide technical leadership and supervision to the Senior Research Technician, supporting the advancement of analytics infrastructure and reproducible research practices.
+
+* **Research Officer**, [Waterloo Region District School
+Board](https://www.wrdsb.ca/about-the-wrdsb/research/) \hfill 2018 to 2025
 
   + Spearhead the development and implementation of system-level measurements aligned with WRDSB's Strategic Plan and Board Improvement and Equity Plan / Student Achievement Plan, focusing on enhancing educational outcomes and operational efficiency through evidence-based practices.
   + Maintain a student demographic data tool that leverages Canadian Census data and guide senior team on using it to support WRDSB equity goals for a more equitable allocation of resources to schools.
