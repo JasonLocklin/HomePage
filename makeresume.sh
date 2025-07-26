@@ -15,15 +15,14 @@ cd ..
 
 # Build more common/shorter Resume format
 pandoc -s --template=tex/template.tex -o tex/resume.tex \
-	cv/contact.md \
 	cv/professional_summary.md \
 	cv/career_aim.md \
 	cv/education.md \
+	cv/teaching_experience.md \
 	cv/research_experience.md \
 	cv/graduate_research_experience.md \
-	cv/affiliations.md \
 	cv/service_activities.md \
-	cv/teaching_experience.md \
+	cv/affiliations.md \
 	cv/professional_development.md \
 	cv/graduate_training.md \
 	cv/skills.md \
@@ -33,24 +32,22 @@ pandoc -s --template=tex/template.tex -o tex/resume.tex \
 	#cv/funding.md
 
 pandoc -s -t plain -o cv.txt \
-		cv/contact.md \
 		cv/professional_summary.md \
 		cv/career_aim.md \
 		cv/education.md \
 		cv/research_experience.md \
+		cv/teaching_experience.md \
 		cv/graduate_research_experience.md \
 		cv/affiliations.md \
 		cv/service_activities.md \
-		cv/teaching_experience.md \
 		cv/professional_development.md \
 		cv/graduate_training.md \
 		cv/skills.md \
 		cv/publications.md \
-		cv/references.md
+#		cv/references.md
 
 	# Build more common/shorter Resume format
 pandoc -s --template=tex/template.tex -o tex/resume_short.tex \
-		cv/contact.md \
 		cv/professional_summary.md \
 		cv/education.md \
 		cv/research_experience_short.md \
@@ -77,4 +74,6 @@ sed -i '' 's/\\end{itemize}/\\end{outerlist}/' tex/resume.tex #CV uses outerlist
 cd tex/
 pdflatex resume.tex
 cd ..
-mv tex/resume.pdf static/Jason_Locklin_Resume.pdf
+cp tex/resume.pdf static/Jason_Locklin_Resume.pdf
+
+#cp tex/resume.pdf ../../Jason\ \&\ Annette\'s\ Shared\ Files/Laurier\ Package/Jason_Locklin_CV.pdf

@@ -23,10 +23,10 @@ Teaching and Training Delivery
 
 **Invited Lectures**
 
-* University of Waterloo \hfill    2014
+* **University of Waterloo** \hfill    2014
   + Psych 261 Physiological Psychology: Topics included Auditory Sensation and Somatosensation.
 
-* Wilfrid Laurier University \hfill   2008 
+* **Wilfrid Laurier University** \hfill   2008 
   + EU 403: Teaching Equity and Diversity
 
 
@@ -51,32 +51,37 @@ Teaching and Training Delivery
 
 **[Department of Psychology](http://psychology.uwaterloo.ca), [University of Waterloo](http://www.uwaterloo.ca/)** 
 
-* **PSYCH 261: Physiological Psychology**: T.A. \hfill    2009, 2011 & 2014
+* **Physiological Psychology**: T.A. \hfill    2011 & 2014
 
   + Provided weekly office hour instruction to students.
   + Assisted with course material preparation and grading.
 
-* **PSYCH 307: Human Neuropsychology**: T.A. \hfill    2012
+* **Human Neuropsychology**: T.A. \hfill    2012
 
   + Provided weekly office hour instruction to students.
   + Offered guidance on complex neuropsychological concepts.
 
-* **PSYCH 390: Res. in Human Cognitive Neuroscience**: T.A. \hfill    2010
+* **Res. in Human Cognitive Neuroscience**: T.A. \hfill    2010
 
   + Provided assistance and feedback to students developing research papers.
   + Guided students through research design and analysis processes.
 
-* **PSYCH 207: Cognitive Processes**: T.A. \hfill    2008
+* **Physiological Psychology**: T.A. \hfill    2009
+
+  + Provided weekly office hour instruction to students.
+  + Supported laboratory demonstrations of physiological concepts.
+
+* **Cognitive Processes**: T.A. \hfill    2008
 
   + Provided extra instruction during office hours, graded term papers, and gave feedback to students.
   + Facilitated discussions on cognitive psychology topics.
 
-* **PSYCH 292: Basic Data Analysis**: T.A. & Lab Instructor \hfill    2008
+* **Basic Data Analysis**: T.A. & Lab Instructor \hfill    2008
 
   + Instructed weekly tutorials for 30 students, consisting of review lectures and practical instruction on solving data analytic problems.
   + Developed weekly tutorial lesson plans in cooperation with other teaching assistants.
 
-* **PSYCH 391 Advanced Data Analysis**: T.A. & Lab Instructor \hfill 2007
+* **Advanced Data Analysis**: T.A. & Lab Instructor \hfill 2007
 
   + Developed and led regular tutorials instructing students to utilize SPSS in analyzing experimental and observational data.
   + Provided practical instruction on solving complex statistical problems.

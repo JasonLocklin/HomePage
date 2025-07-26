@@ -3,9 +3,17 @@ Profile Summary
 
 **Leader in Education Research, Analytics, and Organizational Transformation**
 
-Innovative leadership in student-centred education research, managing large-scale projects with skilled research design, advanced statistical analysis and effective knowledge mobilization. Adept at translating complex data into actionable insights to support organizational goals and strategic plans.
 
-Proven ability to lead organizational transformation through evidence-based decision-making, professional development, and program evaluation. Fosters a data-driven culture while efficiently resourcing initiatives. Committed to centering education community and student voice.
+
+Recognized in the Ontario educational research community as a leader in the field, 
+educator of educators, dedicated to advancing student-centred educational research and practice.
+Expertise in transforming large-scale quantitative data into actionable insights and mobilizing knowledge to bridge theory and practice in meaningful ways.
+Passionately committed to dismantling systemic barriers by ensuring identity and social location no longer predict educational outcomes.
+Translates complex research into teachable, actionable strategies and fosters reproducible, transparent science. 
+Proven ability to design innovative research, apply advanced quantitative methods, and foster data literacy through professional development. 
+Committed to leading the translation of complex theory and research into practical, equitable policies and strategies that empower educators and centre student voice.
+
+
 
 
 \vspace{5pt}
@@ -13,6 +21,7 @@ Proven ability to lead organizational transformation through evidence-based deci
 
 **Professional Vision:**
 
-  Lead transformative, equitable change in education systems through evidence-based decision making, cutting edge research and skilled data analytics, effective strategic planning and capacity building. My goal is to remove barriers and create conditions where students and staff can thrive, unconstrained by social location or identity. I strive to model a spirit of inquiry, growth mindset, and social responsibility in all aspects of organizational leadership.
+To drive equitable transformation in education, where student achievement is independent of identity or social location, while modeling inquiry, growth, and social responsibility;
+leading equitable change by dismantling systemic barriers and centering student lived experience, needs, and success.
 
 \pagebreak[3]

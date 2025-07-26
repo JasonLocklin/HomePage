@@ -14,7 +14,7 @@
             marginparsep=0in,       % Space between titles and text
             margin=1in,               % 1 inch margins
             includemp]{geometry}
-\parskip=2pt
+\parskip=5pt
 
 %% Use these lines for A4-sized paper
 %\usepackage[paper=a4paper,
@@ -49,6 +49,7 @@
        \parbox{4in}{\, \hfill %
                     \arabic{page} of \protect\pageref*{LastPage} % +LP
 %                    \arabic{page}                               % -LP
+                    \hspace*{4.5cm}
                     \hfill \,}}
 
 % Allow urls to break across lines
@@ -71,6 +72,14 @@
 \usepackage{enumitem}
 \setdescription{labelsep=\textwidth}
 
+% Avoid bullets
+\setlist[itemize]{label=\empty,
+        leftmargin=1.0em, % Reduce indent amount
+        itemsep=1.5pt, parsep=2.5pt, topsep=1.5pt, partopsep=2.5pt}
+
+\setlist[enumerate]{label=\empty,
+        leftmargin=1.0em, % Reduce indent amount
+        itemsep=1.5pt, parsep=2.5pt, topsep=1.5pt, partopsep=2.5pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -91,8 +100,8 @@
 
 
 \renewcommand{\section}[2]%
-        {\pagebreak[2]\vspace{1.3\baselineskip}% space between sections
-		\pagebreak[3]
+        {\pagebreak[1]\vspace{1.3\baselineskip}% space between sections
+		\pagebreak[1]
 		\phantomsection\addcontentsline{toc}{section}{#1}%
          \nopagebreak \hspace{0in}% 
 	 \nopagebreak
@@ -106,22 +115,35 @@
 
 
 \newlist{outerlist}{itemize}{3}
-    \setlist[outerlist]{label=\enskip,leftmargin=*,itemsep=8pt}
+    \setlist[outerlist]{label=\empty,leftmargin=0pt,itemsep=4pt}
 
 % An itemize-style list with little space between items
-\newenvironment{innerlist}[1][\enskip\textbullet]
-    {\begin{samepage}\begin{compactenum}[#1]}
+% \newenvironment{innerlist}[1][\enskip\textbullet] % Bulleted inner lists
+\newenvironment{innerlist}[1][\enskip]
+    {\begin{samepage}\begin{compactenum}[label=\empty,
+        leftmargin=1.5em, % Reduce indent amount
+        #1]}
     {\end{compactenum}\end{samepage}}
 
 % To add some paragraph space between lines.
 % This also tells LaTeX to preferably break a page on one of these gaps
 % if there is a needed pagebreak nearby.
-\newcommand{\blankline}{\quad\pagebreak[1]}
+%\newcommand{\blankline}{\quad\pagebreak[1]}
+\newcommand{\blankline}{\quad}
 
 % Support pandoc's "tightlist"
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{5pt}}
 
+\newcount\myMonthNum
+\myMonthNum=\month % Get the current month number
+\newcommand{\myMonthName}{%
+  \ifcase\myMonthNum
+    \or January\or February\or March\or April\or May\or June
+    \or July\or August\or September\or October\or November\or December\fi}
+\renewcommand{\today}{\number\day\space\myMonthName\space\number\year}
+
+\input{phone.env}
 %%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -130,6 +152,35 @@
 \begin{document}
 % column width for contact info:
 \newlength{\rcollength}\setlength{\rcollength}{3in}
+
+\makeheading{Dr. Jason Locklin, Ph.D.}
+
+\begin{flushright}
+  \today
+\end{flushright}
+
+\begin{center}
+  \begin{minipage}{0.5\textwidth}
+  \centering
+    \LARGE\scshape{Jason Locklin}\\
+  \vspace{0.1cm}
+  \normalsize
+  Curriculum Vitae\\
+  Citizenship: Canadian\\
+\end{minipage}
+  \hspace*{2.5cm}
+\end{center}
+
+\section{Contact Information}
+\begin{tabular}[t]{@{}p{\textwidth}}
+     \\
+   Data Science Lead, Research and Analytics\\
+   Toronto Catholic District School Board \\
+   Kitchener, Ontario \\
+   \textit{Email:} \href{mailto:Jason@Locklin.science}{Jason@Locklin.science}
+   \textit{Phone:} \phonenumber 
+\end{tabular}
+
 
 % Include the content from markdown files with pandoc
 % See makefile

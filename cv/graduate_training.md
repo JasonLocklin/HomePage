@@ -1,5 +1,5 @@
 \pagebreak[2]
-**[University of Waterloo](http://www.uwaterloo.ca/)**, selected examples follow:
+**[University of Waterloo](http://www.uwaterloo.ca/)** graduate level training, selected examples follow:
 
   - Multiple Regression (Psychology 632)
   - Analysis of Variance (Psychology 630)

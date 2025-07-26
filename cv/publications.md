@@ -1,7 +1,7 @@
 Publications
 ============
 
-Refereed:
+**Refereed:**
 
 * Lee, L., **Locklin, J.**, Patel, T., Lu, S. K., Hillier, L. M. (2022)
   Recruitment of participants for dementia research: interprofessional
@@ -45,12 +45,13 @@ Refereed:
   Retrieve from
   [hdl.handle.net/10012/4740](http://hdl.handle.net/10012/4740)
 
-* Striemer, C., **Locklin, J.**, Blangero, A., Rossetti, Y., Pisella, L. & Danckert, J. (2008). Attention for action? Examining the link between attention and visuomotor control deficits in a patient with optic
-  ataxia. *Neuropsychologia*, *47*, 1491-1499. \
+* Striemer, C., **Locklin, J.**, Blangero, A., Rossetti, Y., Pisella, L. & Danckert, J. (2009). Attention for action? Examining the link between attention and visuomotor control deficits in a patient with optic
+  ataxia. *Neuropsychologia*, *47*(6), 1491-1499. \
   [doi:10.1016/j.neuropsychologia.2008.12.021](http://dx.doi.org/10.1016/j.neuropsychologia.2008.12.021)
 
 \pagebreak[3]
-Non-Refereed:
+
+**Non-Refereed:**
 
 * **Locklin, J.** (2024) R training workship notes. Retrieve from
   [rpubs.com/jasonL/module1](https://rpubs.com/jasonL/module1),\
@@ -78,9 +79,20 @@ Non-Refereed:
   Retrieve from
   [cogprints.org/6854/](http://cogprints.org/6854/)
 
-* **Locklin, J.**, Danckert, J. (2009). Changes in Visuomotor Performance of Concussed Individuals. Poster. Abstract published in *Journal of Vision*, *9:8*, 1103-1103.  \
+\pagebreak[3]
+
+**Conference Contributions:**
+
+
+* Lee, L., Hillier, L., **Locklin, J.**, Lumley Leger, K., & Molnar, F. (2018). Specialist and Family Physician Collaboration: Insights from Primary Care Collaborative Memory Clinics. Poster presented at the CGS 38th Annual Scientific Meeting, Markham, Canada. Abstract published in *Canadian Geriatrics Journal*, *21*(3), 218–261. [doi:10.5770/cgj.21.334](https://doi.org/10.5770/cgj.21.334)
+
+* Lee, L., **Locklin, J.**, Patel, T., & Lu, S. (2018). Interdisciplinary Perspectives on Recruitment of Participants for Clinical Research in the Primary Care Collaborative Memory Clinic Setting. Poster presented at the CGS 38th Annual Scientific Meeting, Markham, Canada. Abstract published in *Canadian Geriatrics Journal*, *21*(3), 218–261. [doi:10.5770/cgj.21.334](https://doi.org/10.5770/cgj.21.334)
+
+* Lee, L., **Locklin, J.**, Skimson, K., & Patel, T. (2018). Frailty Screening in Primary Care: A Pilot Study Involving Collaboration Between Community Pharmacy and Family Practice. Poster presented at the CGS 38th Annual Scientific Meeting, Markham, Canada. Abstract published in *Canadian Geriatrics Journal*, *21*(3), 218–261. [doi:10.5770/cgj.21.334](https://doi.org/10.5770/cgj.21.334)
+
+* **Locklin, J.**, Danckert, J. (2009). Changes in Visuomotor Performance of Concussed Individuals. Poster. Abstract published in *Journal of Vision*, *9:8*, 1103-1103. \
   [doi:10.1167/9.8.1103](http://dx.doi.org/10.1167/9.8.1103)
 
-* Law, A., McCabe, S., **Locklin, J.**, Tan, C., & Morris, S. (2006). Perceptions of social rank as a predictor of anger and depression symptoms.  Poster presented at the Graduate Student Research Conference, University of Waterloo, Waterloo, Canada.
+* Law, A., McCabe, S., **Locklin, J.**, Tan, C., & Morris, S. (2006). Perceptions of social rank as a predictor of anger and depression symptoms. Poster presented at the Graduate Student Research Conference, University of Waterloo, Waterloo, Canada.
 
 \pagebreak[3]

@@ -11,3 +11,6 @@ letter.*
 static/.DS_Store
 static/.DS_Store
 *_short.md
+*.tex
+*.toc
+*.pdf

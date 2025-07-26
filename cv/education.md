@@ -10,7 +10,7 @@ Education
 
 \pagebreak[2]
 
-* [**M.A., Psychology, Behavioural and Cognitive Neuroscience**](http://psychology.uwaterloo.ca) \hfill 2009
+* [**M.A., Psychology, Behavioural and Cognitive Neuroscience**](http://psychology.uwaterloo.ca) \hfill 2011
   
   + Thesis: *Development of a Measure of Visuomotor Control for
     Assessing the Long-term Effects of Concussion* 

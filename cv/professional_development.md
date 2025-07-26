@@ -4,10 +4,11 @@ Professional Development
 
 **Leading for Change: Understanding Colonialism, Human Rights and Equity**; [WRDSB](https://www.wrdsb.ca/) \hfill 2024
 
-  - Course explored the nuanced concepts of colonialism, human rights and equity —how they are each unique, different, and how they relate to one another, to education and to leadership.
-  - Interactive, experiential learning exploring notions of colonialism, oppression, and racism and uncovering how these impact all aspects of education, while considering personal identity and one's own role in upholding these structures.
+  - Participated in this 6-week course that deepened understanding of Indigenous education perspectives and the harm caused by colonial structures deeply ingrained in the education system through interactive, experiential learning.
+  - Examined how decolonizing education creates more inclusive environments by challenging personal perspectives and identifying where colonial notions of power and value permeate educational structures, recognizing how choices made as an educator can either perpetuate or dismantle these systems.
+  - Implemented UDL principles that honor diverse ways of knowing and learning by transforming data collection and reporting practices to create educational environments where identity and social location do not predict success, but instead where students develop agency in their learning journey.
 
-\pagebreak[2]
+\pagebreak[3]
 
 **WRDSB Microsoft Power BI Hands-On Training**; [Go Analytics](https://goanalyticsbi.com/workshops/) \hfill 2023
 
