@@ -1,7 +1,9 @@
 ---
 title: "R Lang"
 date: 2024-03-05
-tags: ["R", "data-science", "open-source", "computing"]
+taxonomies:
+  tags: ["R", "data-science", "open-source", "computing"]
+  categories: ["Research"]
 ---
 
 As a research scientist working across public education and healthcare, I rely heavily on R for its robustness and adaptability in statistical analysis and data visualization. I started working with it in my undergraduate statistics courses twenty years ago, and I have watched it develop from relative obscurity to a powerhouse of data science and rapid data analysis. I have a deep appreciation for the developers who brought this Free tool to the world of science, and am ever eager to learn more or share what I have learned.

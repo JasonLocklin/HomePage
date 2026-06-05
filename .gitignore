@@ -1,16 +1,38 @@
-cover_letter.tex
-resume.tex
-locklin.tex
-*.log
-*.out
-*.aux
+# Zola build output
+public/
+gemini/
+gopher/
+
+# Zola image processing cache
+static/processed_images/
+
+# Local tool binaries
+.local-bin/
+
+# Claude Code tool files
+.claude/
+.claudeignore
+Claude.md
+
+# Saved chat exports
+chat.html
+chat_files/
+
+# Large reference material not part of the site
+Reference_material/
+
+# Theme: demo content, screenshot, and upstream maintenance scripts
+themes/terminus/content/
+themes/terminus/screenshot.png
+themes/terminus/scripts/
+
+# macOS
 .DS_Store
-cv/references.md
-cv/wrdsbcontact.md
-letter.*
-static/.DS_Store
-static/.DS_Store
-*_short.md
-*.tex
-*.toc
-*.pdf
+
+# Editor swap/backup files
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env

@@ -9,9 +9,27 @@
 #
 # Dependencies: pandoc, sh (POSIX), sed
 # Usage: sh scripts/build-gemini.sh   (or: just build-gemini)
+#
+# Markdown support in Gemini/Gopher posts:
+#   Works cleanly:
+#     - Plain paragraphs, ATX headings (# ## ###)
+#     - Unordered/ordered lists
+#     - Links — [text](url) becomes "=> url text" link lines
+#     - Fenced code blocks — become ``` preformatted blocks
+#     - Blockquotes (> text)
+#     - Zola shortcodes: responsive_image → image link, alert → blockquote
+#   Passes through but may look different:
+#     - Inline bold/italic — stripped (Gemtext is plain text)
+#     - Footnotes — converted to numbered links at end of document
+#     - Tables — may render as ASCII or be flattened; test before publishing
+#   Avoid or test carefully:
+#     - Raw HTML blocks — stripped by pandoc
+#     - Deeply nested lists — pandoc flattens
+#     - All other Zola shortcodes ({{ ... }}, {% ... %}) — stripped
+#   Per-post exclusion: add "smallweb_ignore: true" to frontmatter
 
 CONTENT="content"
-OUTDIR="gemini"
+OUTDIR="${GEMROOT:-gemini}"
 WRITER="scripts/gemtext.lua"
 
 mkdir -p "$OUTDIR"

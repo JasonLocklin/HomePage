@@ -12,7 +12,7 @@
 # Usage: sh scripts/build-gopher.sh   (or: just build-gopher)
 
 CONTENT="content"
-OUTDIR="gopher"
+OUTDIR="${GOPHERROOT:-gopher}"
 HOST=$(hostname)
 PORT=70
 

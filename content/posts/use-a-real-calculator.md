@@ -1,9 +1,11 @@
 ---
 title: "Use a Real Calculator"
 date: 2026-06-05
-tags: ["R", "unix", "cli", "computing"]
 draft: true
 smallweb_ignore: true
+taxonomies:
+  tags: ["R", "unix", "cli", "computing"]
+  categories: ["Soapbox"]
 ---
 
 I've noticed a disturbing trend and it's painful to watch. Like, actually makes your teeth hurt, eyeballs swell, needles in the bottom of your feet painful. Well, maybe not quite, but here it is.

@@ -1,9 +1,11 @@
 ---
 title: "Good Enough Software"
 date: 2026-06-05
-tags: ["computing", "linux", "unix", "philosophy"]
 draft: true
 smallweb_ignore: true
+taxonomies:
+  tags: ["computing", "linux", "unix", "philosophy"]
+  categories: ["Soapbox"]
 ---
 
 There's a tremendous amount of spilled ink, or rather worn out keyboards, about the enshitification of Windows 11 and having AI shoved into seemingly every application, the "year of the Linux desktop" and the various complaints about how that doesn't work for people because of feature a or feature b. Within Linux, there's the dramatic over-churn of platforms, software installation models, systemd, audio systems, etc. It's enough to take the fun out of computing and just leave people stressed out over which choice is the "best". Best operating system? best distro? best gui toolkit? Give me a break.

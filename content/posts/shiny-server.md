@@ -1,7 +1,9 @@
 ---
 title: "Notes on Deploying a Virtual Private Shiny Server"
 date: 2024-12-13
-tags: ["R", "shiny", "devops", "self-hosting"]
+taxonomies:
+  tags: ["R", "shiny", "devops", "self-hosting"]
+  categories: ["Benchtop"]
 ---
 
 ## Why Shiny and Surveydown?

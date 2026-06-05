@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About my work &middot; Jason Locklin</title>
+  <meta name="author" content="Jason Locklin, PhD">
+  <meta name="description" content="Current work of Jason Locklin and contact info">
+  <meta name="keywords" content="Research, Data Science, Community and Equity">
+  <meta property="og:title" content="About my work">
+  <meta property="og:description" content="Current work of Jason Locklin and contact info">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://jason.locklin.science/about/">
+  <link rel="canonical" href="https://jason.locklin.science/about/">
+
+  <style>
+    /* ================================================================
+       jason.locklin.science/about — about page
+       ----------------------------------------------------------------
+       Colors
+         Background:  #211f1a  (warm dark, matches blog)
+         Text:        #f0f0f0
+         Accent:      rgb(255, 168, 106)  — orange, matches blog
+         Muted:       #909090
+         Border:      rgba(255, 168, 106, 0.25)
+       Fonts: Fira Code loaded from /fonts/ (served by the Zola build)
+       ================================================================ */
+
+    /* ── Fonts ──────────────────────────────────────────────────── */
+    @font-face {
+      font-family: 'Fira Code';
+      src: url('/fonts/FiraCode-Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Fira Code';
+      src: url('/fonts/FiraCode-Bold.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    /* ── Reset ──────────────────────────────────────────────────── */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ── Base ───────────────────────────────────────────────────── */
+    html {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #211f1a;
+      color: #f0f0f0;
+      font-family: 'Fira Code', 'Courier New', monospace;
+    }
+
+    /* ── Navigation ─────────────────────────────────────────────── */
+    nav {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid rgba(255, 168, 106, 0.25);
+    }
+    .nav-inner {
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .site-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: rgb(255, 168, 106);
+      text-decoration: none;
+    }
+    .site-title:hover,
+    .site-title:focus {
+      text-decoration: underline;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    .nav-links a {
+      color: #f0f0f0;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .nav-links a:hover,
+    .nav-links a:focus {
+      color: rgb(255, 168, 106);
+    }
+    .nav-links a[aria-current="page"] {
+      color: rgb(255, 168, 106);
+    }
+
+    /* ── Main content ───────────────────────────────────────────── */
+    main {
+      flex: 1;
+    }
+    .page-content {
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3rem;
+    }
+
+    /* Page title */
+    .page-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: rgb(255, 168, 106);
+      margin-bottom: 2rem;
+      line-height: 1.25;
+    }
+    .page-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .page-title a:hover,
+    .page-title a:focus {
+      text-decoration: underline;
+    }
+
+    /* ── Article body ───────────────────────────────────────────── */
+    /* Edit the <article> below to update the about text */
+    article p {
+      margin-bottom: 1.2rem;
+      line-height: 1.75;
+    }
+    article ul {
+      margin: 0.5rem 0 1.2rem 1.5rem;
+    }
+    article li {
+      margin-bottom: 0.8rem;
+      line-height: 1.75;
+    }
+    article a {
+      color: rgb(255, 168, 106);
+      text-decoration: none;
+    }
+    article a:hover,
+    article a:focus {
+      text-decoration: underline;
+    }
+
+    /* Profile image — floated right, stacks on small screens */
+    article figure {
+      float: right;
+      margin: 0 0 1.5rem 2rem;
+    }
+    article figure img {
+      width: 300px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    @media (max-width: 560px) {
+      article figure {
+        float: none;
+        margin: 0 auto 1.5rem;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    /* ── Footer ─────────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid rgba(255, 168, 106, 0.25);
+      color: rgba(240, 240, 240, 0.5);
+      font-size: 0.85rem;
+      padding: 1rem 0 1.5rem;
+    }
+    .footer-inner {
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      text-align: right;
+    }
+    footer a {
+      color: rgb(255, 168, 106);
+      text-decoration: none;
+    }
+    footer a:hover,
+    footer a:focus {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────────────── -->
+  <nav aria-label="Site navigation">
+    <div class="nav-inner">
+      <a class="site-title" href="/">&ldquo;Let the Dataset Change Your Mindset&rdquo;</a>
+      <ul class="nav-links">
+        <li><a href="/posts/">Blog</a></li>
+        <li><a href="/about/" aria-current="page">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── About article ───────────────────────────────────────────── -->
+  <main>
+    <div class="page-content">
+      <h1 class="page-title">
+        <a href="/about/">About my work</a>
+      </h1>
+
+      <!-- Edit the article body below to update your about page -->
+      <article>
+
+        <figure>
+          <img src="/images/profile2.jpg"
+               alt="Charcoal drawing of man looking at figures and data"
+               width="300">
+        </figure>
+
+        <p>&ldquo;Let the Dataset Change your Mindset&rdquo; guides my approach to research and
+        organizational transformation. I&rsquo;ve found that the most impactful research begins with
+        curiosity &mdash; asking questions, listening to practitioners&rsquo; experiences, and truly
+        understanding the context in which data will be used. This mindset helps bridge the gap between
+        research and practice, connecting professional educators with the evidence and guidance that can
+        make the difference for students.</p>
+
+        <p>But this philosophy goes deeper than just curiosity. It&rsquo;s about approaching data with
+        both rigor and openness, allowing carefully collected and thoughtfully analyzed data to challenge
+        our assumptions and reveal new insights. The key is asking the right questions and conducting
+        analysis with a deep understanding of how the data is generated and used in real educational
+        settings. When we combine methodological excellence with genuine curiosity about
+        practitioners&rsquo; experiences, data becomes a powerful tool for positive change.</p>
+
+        <p>As a Research and Organizational Transformation leader, I combine this collaborative approach
+        with technical expertise to improve education through evidence-based practices. Since completing
+        my PhD in Psychology, Behavioural and Cognitive Neuroscience at the University of Waterloo,
+        I have focused on ensuring research translates into meaningful improvements for students and
+        educators.</p>
+
+        <p>My work centers on a vision of ensuring that student identity and social location no longer
+        predicts outcomes. I lead initiatives that enhance data-driven and equity-focused
+        decision-making, developing projects that assess and improve student achievement while building
+        staff capacity to use evidence effectively. This involves not just collecting and analyzing data,
+        but transforming it into insights that can directly inform classroom practice.</p>
+
+        <p>Here&rsquo;s how I approach this work:</p>
+
+        <ul>
+          <li>I design and implement system-level measurements that align with strategic goals and
+          enhance educational outcomes. This ranges from large-scale student surveys to predictive
+          analytics, always with a focus on creating actionable insights for educators.</li>
+
+          <li>I believe in making complex information accessible and meaningful. By understanding both
+          the technical aspects of data and the realities of education, I help create narratives that
+          connect research findings to classroom practice in ways that resonate with educators.</li>
+
+          <li>Open source tools, particularly the R programming language, are central to my approach.
+          I teach these tools to research teams through workshops and professional development because
+          they enable reproducible research and collaborative development. This approach ensures our work
+          is transparent, efficient, and can be built upon by others.</li>
+
+          <li>My technical expertise focuses on creating sophisticated yet practical data systems.
+          By combining literate programming principles with automated workflows, I ensure analyses are
+          both reproducible and well-documented, making them valuable resources for future work.</li>
+        </ul>
+
+        <p>As an executive member of the Association of Educational Researchers of Ontario, I actively
+        engage with the broader education research community. This connection helps ensure our work
+        reflects current best practices while contributing to the advancement of evidence-based
+        education.</p>
+
+        <p>Through all these efforts, my goal remains constant: supporting positive change in education
+        through thoughtful research and effective knowledge mobilization. By bringing together rigorous
+        methodology, technical innovation, and deep respect for educator expertise, we can create
+        sustainable improvements that benefit all students.</p>
+
+        <p>For more details, feel free to take a look at my
+        <em><a href="/Jason_Locklin_Resume.pdf">Curriculum Vitae</a></em>.</p>
+
+      </article>
+    </div><!-- /page-content -->
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      &copy; 2024&ndash;2025 Jason Locklin, PhD
+    </div>
+  </footer>
+
+</body>
+</html>

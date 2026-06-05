@@ -7,7 +7,8 @@ generate_feeds = true
 author = "Jason Locklin"
 
 taxonomies = [
-    { name = "tags", feed = true },
+    { name = "tags",       feed = true },
+    { name = "categories", feed = true },
 ]
 
 [markdown]
@@ -28,9 +29,18 @@ show_default_author = false
 stylesheets = ["css/custom.css"]
 
 main_menu = [
-    { name = "about", url = "about", trailing_slash = true },
-    { name = "posts", url = "posts", trailing_slash = true },
+    { name = "Top",      url = "/",                   trailing_slash = false },
+    { name = "Blog",     url = "posts",               trailing_slash = true  },
+    { name = "R",        url = "tags/r",              trailing_slash = true  },
+    { name = "Research", url = "categories/research", trailing_slash = true  },
+    { name = "Benchtop", url = "categories/benchtop", trailing_slash = true  },
+    { name = "Soapbox",  url = "categories/soapbox",  trailing_slash = true  },
+    { name = "Links",    url = "links",               trailing_slash = true  },
+    { name = "Uses",     url = "uses",                trailing_slash = true  },
+    { name = "Now",      url = "now",                 trailing_slash = true  },
 ]
+
+copyright = "© $YEAR Jason Locklin, PhD"
 
 socials = [
     { name = "email",  url = "mailto:Jason@Locklin.science" },

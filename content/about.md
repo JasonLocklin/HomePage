@@ -3,7 +3,9 @@ title: "About my work"
 description: "Current work of Jason Locklin and contact info"
 date: 2019-02-28
 author: "Jason Locklin"
+render: false
 ---
+<!-- Superseded by static/about/index.html — maintained manually as a standalone HTML page. -->
 
 {{ responsive_image(src="images/profile2.jpg", alt="charcoal drawing of man looking at figures and data") }}
 

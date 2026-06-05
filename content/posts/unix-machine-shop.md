@@ -1,9 +1,11 @@
 ---
 title: "The Unix Machine Shop"
 date: 2026-06-05
-tags: ["unix", "linux", "philosophy", "computing"]
 draft: true
 smallweb_ignore: true
+taxonomies:
+  tags: ["unix", "linux", "philosophy", "computing"]
+  categories: ["Soapbox"]
 ---
 
 I'll get to Unix shortly, but bear with me while I tell you a little about machine shops. These are the full set of tools that machinists use to fabricate all types of metal objects.

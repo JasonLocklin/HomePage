@@ -1,9 +1,11 @@
 ---
 title: "A WeeChat Jail on FreeBSD with Bastille"
 date: 2026-06-03
-tags: ["freebsd", "jails", "bastille", "weechat", "homelab", "zfs", "tailscale"]
 draft: true
 smallweb_ignore: true
+taxonomies:
+  tags: ["freebsd", "jails", "bastille", "weechat", "homelab", "zfs", "tailscale"]
+  categories: ["Benchtop"]
 ---
 
 

@@ -1,7 +1,10 @@
 ---
 title: "R Workshops"
 date: 2024-12-03
-tags: ["R", "workshops", "education"]
+smallweb_ignore: true
+taxonomies:
+  tags: ["R", "workshops", "education"]
+  categories: ["Research"]
 ---
 
 {{ responsive_image(src="images/Rlogo.png", alt="R Project logo") }}

@@ -1,5 +1,6 @@
 +++
 title = "Jason Locklin"
+render = false
 
 [extra]
 framed = true
