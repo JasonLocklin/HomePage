@@ -1,0 +1,58 @@
+/* CRT glow & scanline effects — adapted from bssg.dragas.net/example/apple2/ */
+
+/* ── Scanline overlay ──────────────────────────────────────────────────── */
+/* Orange block-level elements: logo, post titles, nav items */
+
+.logo,
+.post-title,
+.main-menu-items > li {
+    position: relative;
+}
+
+.logo::before,
+.post-title::before,
+.main-menu-items > li::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent 2px,
+        rgba(0, 0, 0, 0.12) 2px,
+        rgba(0, 0, 0, 0.12) 4px
+    );
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* ── Glow ──────────────────────────────────────────────────────────────── */
+
+/* Box glow on the solid-orange logo block */
+.logo {
+    box-shadow: 0 0 12px color-mix(in srgb, var(--accent-color) 45%, transparent);
+}
+
+/* Text glow on all orange-colored text elements */
+a,
+:not(pre) > code,
+.post-title {
+    text-shadow: 0 0 8px color-mix(in srgb, var(--accent-color) 50%, transparent);
+}
+
+/* ── Reduced-motion ────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+    .logo::before,
+    .post-title::before,
+    .main-menu-items > li::before {
+        display: none;
+    }
+    a,
+    :not(pre) > code,
+    .post-title {
+        text-shadow: none;
+    }
+    .logo {
+        box-shadow: none;
+    }
+}

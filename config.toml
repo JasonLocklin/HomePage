@@ -1,0 +1,42 @@
+base_url = "https://jason.locklin.science"
+title = "Jason Locklin"
+description = "Research, data, and education."
+theme = "terminus"
+compile_sass = true
+generate_feeds = true
+author = "Jason Locklin"
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown]
+render_emoji = false
+bottom_footnotes = true
+lazy_async_image = true
+github_alerts = true
+
+[markdown.highlighting]
+style = "inline"
+theme = "monokai"
+
+[extra]
+favicon_emoji = "📊"
+feed_icon = true
+layout = "center"
+show_default_author = false
+stylesheets = ["css/custom.css"]
+
+main_menu = [
+    { name = "about", url = "about", trailing_slash = true },
+    { name = "posts", url = "posts", trailing_slash = true },
+]
+
+socials = [
+    { name = "email",  url = "mailto:Jason@Locklin.science" },
+    { name = "github", url = "https://github.com/jasonlocklin" },
+]
+
+[extra.responsive_images]
+widths = [640, 784, 1280]
+fallback_width = 784

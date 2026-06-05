@@ -1,17 +1,13 @@
-+++
-title = "About my work"
-description = "Current work of Jason Locklin and contact info"
-date = "2019-02-28"
-aliases = ["about-me", "about-jason", "contact"]
-author = "Jason Locklin"
-+++
+---
+title: "About my work"
+description: "Current work of Jason Locklin and contact info"
+date: 2019-02-28
+author: "Jason Locklin"
+---
 
+{{ responsive_image(src="images/profile2.jpg", alt="charcoal drawing of man looking at figures and data") }}
 
-{{< figure src="/images/profile2.jpg" title="" alt="charchoal drawing of man looking at figures and data" width="300" >}}
-
-
-
-“Let the Dataset Change your Mindset” guides my approach to research and organizational transformation. I've found that the most impactful research begins with curiosity - asking questions, listening to practitioners' experiences, and truly understanding the context in which data will be used. This mindset helps bridge the gap between research and practice, connecting professional educators with the evidence and guidance that can make the difference for students.
+"Let the Dataset Change your Mindset" guides my approach to research and organizational transformation. I've found that the most impactful research begins with curiosity - asking questions, listening to practitioners' experiences, and truly understanding the context in which data will be used. This mindset helps bridge the gap between research and practice, connecting professional educators with the evidence and guidance that can make the difference for students.
 
 But this philosophy goes deeper than just curiosity. It's about approaching data with both rigor and openness, allowing carefully collected and thoughtfully analyzed data to challenge our assumptions and reveal new insights. The key is asking the right questions and conducting analysis with a deep understanding of how the data is generated and used in real educational settings. When we combine methodological excellence with genuine curiosity about practitioners' experiences, data becomes a powerful tool for positive change.
 
@@ -33,5 +29,4 @@ As an executive member of the Association of Educational Researchers of Ontario,
 
 Through all these efforts, my goal remains constant: supporting positive change in education through thoughtful research and effective knowledge mobilization. By bringing together rigorous methodology, technical innovation, and deep respect for educator expertise, we can create sustainable improvements that benefit all students.
 
-  For more details, feel free to take a look at my
-*[Curriculum Vitae](/Jason_Locklin_Resume.pdf)*.
+For more details, see my *[resume](/Jason_Locklin_Resume.pdf)*.

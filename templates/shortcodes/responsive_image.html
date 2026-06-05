@@ -1,0 +1,34 @@
+{#- Site-level override: renders a responsive image from static/images/.
+    Usage: {{ responsive_image(src="images/foo.jpg", alt="description") }}
+    The `src` path is relative to the static/ directory.
+    Caption is optional: {{ responsive_image(src="...", alt="...", caption="...") }} -#}
+
+{%- set alt_text = alt -%}
+{%- set caption = caption | default(value="") -%}
+{%- set lazy_load = lazy | default(value=true) -%}
+
+{%- set metadata = get_image_metadata(path=src) -%}
+{%- set fallback_width = config.extra.responsive_images.fallback_width -%}
+{%- set fallback_image = resize_image(path=src, width=fallback_width, op="fit_width", quality=80) -%}
+
+{%- set image_candidates = [] -%}
+{%- for width in config.extra.responsive_images.widths -%}
+    {%- if metadata.width >= width -%}
+        {%- set resized = resize_image(path=src, width=width, op="fit_width", quality=80) -%}
+        {%- set candidate = resized.url ~ " " ~ width ~ "w" -%}
+        {%- set_global image_candidates = image_candidates | concat(with=candidate) -%}
+    {%- endif -%}
+{%- endfor -%}
+
+{%- if caption %}<figure>{% endif -%}
+
+<img src="{{ fallback_image.url | safe }}" alt="{{ alt_text }}"
+     width="{{ fallback_image.width }}" height="{{ fallback_image.height }}"
+     sizes="(min-width: 920px) 784px, (min-width: 700px) calc(82vw + 46px), calc(100vw - 40px)"
+     srcset="{{ image_candidates | join(sep=",\n             ") | safe }}"
+     {%- if lazy_load %} loading="lazy"{% else %} fetchpriority="high"{% endif -%}>
+
+{%- if caption %}
+    <figcaption><p>{{ caption | markdown(inline=true) | safe }}</p></figcaption>
+</figure>
+{%- endif %}
